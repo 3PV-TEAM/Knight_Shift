@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Upgrade Sword - 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3045648631600221374, guid: 8166bbf1d57f048aa9e4333a3e51f7ee, type: 3}
+      propertyPath: weaponData
+      value: 
+      objectReference: {fileID: 11400000, guid: e1b8f23930a1e4ff59aad9174f0245bd, type: 2}
     - target: {fileID: 8235709585389411449, guid: 8166bbf1d57f048aa9e4333a3e51f7ee, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
