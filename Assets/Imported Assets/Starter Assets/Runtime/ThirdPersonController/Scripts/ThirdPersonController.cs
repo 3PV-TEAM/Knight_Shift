@@ -321,7 +321,7 @@ namespace StarterAssets
                 _fallTimeoutDelta = FallTimeout;
 
                 // update animator if using character
-                if(_input.jump == true && playerStatus.currentSp > 0)
+                if(_input.jump && playerStatus.currentSp > 0)
                 {
                     if (_hasAnimator)
                     {

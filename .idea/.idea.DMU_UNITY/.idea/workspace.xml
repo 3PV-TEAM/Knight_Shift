@@ -6,11 +6,29 @@
   <component name="ChangeListManager">
     <list default="true" id="975f744f-261c-47ed-bc26-3abe032e6f67" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DMU_UNITY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DMU_UNITY/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Frank_RPG_2Hand_Combo02_2.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Frank_RPG_2Hand_Combo02_2.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Frank_RPG_2Hand_Combo02_All.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Frank_RPG_2Hand_Combo02_All.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Frank_RPG_2Hand_Combo05_All.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Frank_RPG_2Hand_Combo05_All.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Frank_RPG_2Hand_Skill01_WhirlWind.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Frank_RPG_2Hand_Skill01_WhirlWind.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Frank_RPG_2Hand_Skill02_Rolling.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Frank_RPG_2Hand_Skill02_Rolling.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/PlayerStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/PlayerStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/ThirdPersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/ThirdPersonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Myth.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Myth.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UpgradeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UpgradeManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WeaponDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WeaponDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +37,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SkillController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -94,7 +115,7 @@
       <updated>1744979321566</updated>
       <workItem from="1744979323896" duration="993000" />
       <workItem from="1745565703494" duration="41000" />
-      <workItem from="1745565754964" duration="4560000" />
+      <workItem from="1745565754964" duration="11162000" />
     </task>
     <servers />
   </component>
