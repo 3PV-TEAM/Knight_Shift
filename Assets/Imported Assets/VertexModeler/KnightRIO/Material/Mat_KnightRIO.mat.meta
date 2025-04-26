@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8de8f0e41af28e04aa5c112b0d8ab67c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292670
+  packageName: Lowpoly Knight RIO
+  packageVersion: 1.0
+  assetPath: Assets/VertexModeler/KnightRIO/Material/Mat_KnightRIO.mat
+  uploadId: 690770
