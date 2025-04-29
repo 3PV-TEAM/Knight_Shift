@@ -1,5 +1,14 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Imported Assets/Skeleton/FBX/Skeleton.fbx.meta
 guid: c0e8ec4be6a4d554881a5c8bb6d0c0cf
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+========
+guid: 15429bc1ba477c64b9af1a85850280fc
+>>>>>>>> Stashed changes:Assets/Monster/Skeleton/Animation/GolemPolyart@Idle.fbx.meta
+=======
+=======
+>>>>>>> Stashed changes
 AssetOrigin:
   serializedVersion: 1
   productId: 298650
@@ -7,6 +16,10 @@ AssetOrigin:
   packageVersion: 1.0
   assetPath: Assets/Skeleton/FBX/Skeleton.fbx
   uploadId: 699159
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
