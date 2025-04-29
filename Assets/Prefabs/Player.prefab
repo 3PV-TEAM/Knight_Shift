@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 5274782154253068523}
   m_Layer: 3
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -207,7 +207,6 @@ MonoBehaviour:
   staminaRecoveryRate: 15
   recoveryDelay: 1.5
   lastStaminaUseTime: 0
-  playerUI: {fileID: 0}
 --- !u!114 &3082561244391363617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,8 +231,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26e54e5a728a9234ab24fcf1460ed8a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 20
-  SprintSpeed: 40
+  MoveSpeed: 30
+  SprintSpeed: 50
   canMove: 1
   RotationSmoothTime: 0.12
   SpeedChangeRate: 10
@@ -414,7 +413,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c35809af3d254ec8831f0ff73059b7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerUI: {fileID: 0}
   skillCooldownTime: 10
   currentSkillCooldown: 0
 --- !u!1 &5667811441385583153

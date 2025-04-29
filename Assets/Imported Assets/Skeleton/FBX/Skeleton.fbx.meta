@@ -1,9 +1,19 @@
 fileFormatVersion: 2
 <<<<<<<< Updated upstream:Assets/Imported Assets/Skeleton/FBX/Skeleton.fbx.meta
 guid: c0e8ec4be6a4d554881a5c8bb6d0c0cf
+<<<<<<< Updated upstream
 ========
 guid: 15429bc1ba477c64b9af1a85850280fc
 >>>>>>>> Stashed changes:Assets/Monster/Skeleton/Animation/GolemPolyart@Idle.fbx.meta
+=======
+AssetOrigin:
+  serializedVersion: 1
+  productId: 298650
+  packageName: Stylized Free Skeleton
+  packageVersion: 1.0
+  assetPath: Assets/Skeleton/FBX/Skeleton.fbx
+  uploadId: 699159
+>>>>>>> Stashed changes
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -25,15 +35,13 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -106,7 +114,7 @@ ModelImporter:
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
   avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
@@ -116,10 +124,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 298650
-  packageName: Stylized Free Skeleton
-  packageVersion: 1.0
-  assetPath: Assets/Skeleton/FBX/Skeleton.fbx
-  uploadId: 699159

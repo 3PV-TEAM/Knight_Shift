@@ -6,9 +6,31 @@
   <component name="ChangeListManager">
     <list default="true" id="975f744f-261c-47ed-bc26-3abe032e6f67" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DMU_UNITY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DMU_UNITY/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/EventScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/EventScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Attack01.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Attack01.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Frank_RPG_2Hand_Hit_Knockback.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Frank_RPG_2Hand_Hit_Knockback.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Sword10_Material_Bone.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Sword10_Material_Bone.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Sword15_Material_Earth.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Sword15_Material_Earth.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Sword15_Material_Frost.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Sword15_Material_Frost.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Sword2_Material_Yellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Sword2_Material_Yellow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Sword3_Material_Green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Sword3_Material_Green.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Sword8_Material_Gold.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Sword8_Material_Gold.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Sword9_Material_Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Sword9_Material_Red.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Skeleton/FBX/IDLE.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Skeleton/FBX/IDLE.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Skeleton/FBX/Run.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Skeleton/FBX/Run.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Skeleton/FBX/Skeleton.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Skeleton/FBX/Skeleton.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Skeleton/FBX/Skeleton.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Skeleton/FBX/Skeleton.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Skeleton/FBX/Walk.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Skeleton/FBX/Walk.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/Attack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/Attack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/PlayerStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/PlayerStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/Unity.StarterAssets.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/Unity.StarterAssets.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Weapon/Art/Weapons/Stylized/Daggers/Material_Daggers/Dagger1_3_5.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Weapon/Art/Weapons/Stylized/Daggers/Material_Daggers/Dagger1_3_5.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapon/Axe/Base Axe.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapon/Axe/Base Axe.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapon/Axe/Upgrade Axe - 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapon/Axe/Upgrade Axe - 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapon/Sword/Base Sword.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapon/Sword/Base Sword.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Myth/Myth.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Myth/Myth.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WeaponDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WeaponDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skeleton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skeleton.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +50,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2vtzmtxo8V1ZuWNMceMeLe1UOr1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

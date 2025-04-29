@@ -1,13 +1,16 @@
+using StarterAssets;
 using UnityEngine;
 
 public class PlayerStatus : MonoBehaviour
 {
+    [Header("플레이어 상태값")]
     public int maxHp = 100;
     public int maxSp = 100;
-
+    
     public float currentHp;
     public float currentSp;
-
+    
+    [Header("스태미너 소모량")]
     public float attackStamina = 15;
     public float jumpStamina = 5;
     public float dashStamina = 10;
@@ -20,9 +23,13 @@ public class PlayerStatus : MonoBehaviour
     public float lastStaminaUseTime;       // 마지막 스태미너 사용 시간
 
     private PlayerUI playerUI;
+    private ThirdPersonController controller;
+    Animator animator;
 
     void Start()
     {
+        controller = GetComponent<ThirdPersonController>();
+        animator = GetComponent<Animator>();
         playerUI = FindFirstObjectByType<PlayerUI>();
         currentHp = maxHp;
         currentSp = maxSp;
@@ -44,6 +51,25 @@ public class PlayerStatus : MonoBehaviour
             currentSp = Mathf.Min(currentSp, maxSp);
             playerUI.UpdateUI();
         }
+    }
+    
+    public void TakeDamage(float damage)
+    {
+        Debug.Log("Damage Taken: " + damage);
+        currentHp -= damage;
+        animator.SetTrigger("Hit");
+        if (currentHp <= 0)
+        {
+            currentHp = 0;
+            Die();
+        }
+        playerUI.UpdateUI();
+    }
+
+    void Die()
+    {
+        Debug.Log("Player Died");
+        controller.enabled = false;
     }
 
     public void RunStamina()
