@@ -1,7 +1,7 @@
 using StarterAssets;
 using UnityEngine;
 
-public class PlayerStatus : MonoBehaviour
+public class PlayerStatus : MonoBehaviour, IDamageable
 {
     [Header("플레이어 상태값")]
     public int maxHp = 100;
@@ -53,10 +53,10 @@ public class PlayerStatus : MonoBehaviour
         }
     }
     
-    public void TakeDamage(float damage)
+    public void TakeDamage(float damageAmount)
     {
-        Debug.Log("Damage Taken: " + damage);
-        currentHp -= damage;
+        Debug.Log("Damage Taken: " + damageAmount);
+        currentHp -= damageAmount;
         animator.SetTrigger("Hit");
         if (currentHp <= 0)
         {
