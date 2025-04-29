@@ -94,8 +94,6 @@ MonoBehaviour:
   weaponParent: {fileID: 0}
   weaponNameText: {fileID: 1956232874146414741}
   selectButton: {fileID: 9151976541716517671}
-  weaponManager: {fileID: 0}
-  uiManager: {fileID: 0}
 --- !u!114 &9151976541716517671
 MonoBehaviour:
   m_ObjectHideFlags: 0

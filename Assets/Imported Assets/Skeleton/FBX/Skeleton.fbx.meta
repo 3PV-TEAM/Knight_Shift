@@ -5,7 +5,7 @@ AssetOrigin:
   productId: 298650
   packageName: Stylized Free Skeleton
   packageVersion: 1.0
-  assetPath: Assets/Skeleton/FBX/Skeleton.fbx
+  assetPath: Assets/Imported Assets/Skeleton/FBX/Skeleton.fbx
   uploadId: 699159
 ModelImporter:
   serializedVersion: 22200

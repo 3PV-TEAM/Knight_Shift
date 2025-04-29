@@ -1,17 +1,9 @@
 fileFormatVersion: 2
-<<<<<<<< Updated upstream:Assets/Imported Assets/Skeleton/Textures/SceletonVersion2.tga.meta
 guid: b21edff3faed7d34894d57e9f3dabe51
-========
-guid: 8e14ac0e081c92e419d772a166b7ebd3
->>>>>>>> Stashed changes:Assets/Monster/Golem/Textures/AlbedoGolem.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-<<<<<<<< Updated upstream:Assets/Imported Assets/Skeleton/Textures/SceletonVersion2.tga.meta
   serializedVersion: 12
-========
-  serializedVersion: 7
->>>>>>>> Stashed changes:Assets/Monster/Golem/Textures/AlbedoGolem.png.meta
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -148,16 +140,8 @@ TextureImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-<<<<<<<< Updated upstream:Assets/Imported Assets/Skeleton/Textures/SceletonVersion2.tga.meta
   productId: 298650
   packageName: Stylized Free Skeleton
   packageVersion: 1.0
-  assetPath: Assets/Skeleton/Textures/SceletonVersion2.tga
+  assetPath: Assets/Imported Assets/Skeleton/Textures/SceletonVersion2.tga
   uploadId: 699159
-========
-  productId: 94707
-  packageName: Mini Legion Rock Golem PBR HP Polyart
-  packageVersion: 1.2
-  assetPath: Assets/Mini Legion Rock Golem PBR HP Polyart/Textures/AlbedoGolem.png
-  uploadId: 347235
->>>>>>>> Stashed changes:Assets/Monster/Golem/Textures/AlbedoGolem.png.meta

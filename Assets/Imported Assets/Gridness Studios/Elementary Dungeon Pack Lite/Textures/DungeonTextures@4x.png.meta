@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< Updated upstream:Assets/Imported Assets/Gridness Studios/Elementary Dungeon Pack Lite/Textures/DungeonTextures@4x.png.meta
 guid: f9aaa450c8910404685e66908a5bfad9
-========
-guid: 3b03cf9023fe29946954c99cfdde9f03
->>>>>>>> Stashed changes:Assets/Monster/minotaur1/Textures/t_minotaur1_axe_Normal.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -11,7 +7,7 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
-    sRGBTexture: 0
+    sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -28,10 +24,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-<<<<<<<< Updated upstream:Assets/Imported Assets/Gridness Studios/Elementary Dungeon Pack Lite/Textures/DungeonTextures@4x.png.meta
   ignoreMasterTextureLimit: 0
-========
->>>>>>>> Stashed changes:Assets/Monster/minotaur1/Textures/t_minotaur1_axe_Normal.png.meta
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -60,7 +53,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 1
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -77,21 +70,6 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
-<<<<<<<< Updated upstream:Assets/Imported Assets/Gridness Studios/Elementary Dungeon Pack Lite/Textures/DungeonTextures@4x.png.meta
-========
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
->>>>>>>> Stashed changes:Assets/Monster/minotaur1/Textures/t_minotaur1_axe_Normal.png.meta
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -111,10 +89,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<<< Updated upstream:Assets/Imported Assets/Gridness Studios/Elementary Dungeon Pack Lite/Textures/DungeonTextures@4x.png.meta
     nameFileIdTable: {}
-========
->>>>>>>> Stashed changes:Assets/Monster/minotaur1/Textures/t_minotaur1_axe_Normal.png.meta
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
@@ -123,16 +98,8 @@ TextureImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-<<<<<<<< Updated upstream:Assets/Imported Assets/Gridness Studios/Elementary Dungeon Pack Lite/Textures/DungeonTextures@4x.png.meta
   productId: 242692
   packageName: Lite Dungeon Pack - Low Poly 3D Art by Gridness
   packageVersion: 1.0
   assetPath: Assets/Gridness Studios/Elementary Dungeon Pack Lite/Textures/DungeonTextures@4x.png
   uploadId: 551791
-========
-  productId: 196863
-  packageName: minotaur1
-  packageVersion: 1.0
-  assetPath: Assets/minotaur1/Textures/t_minotaur1_axe_Normal.png
-  uploadId: 464611
->>>>>>>> Stashed changes:Assets/Monster/minotaur1/Textures/t_minotaur1_axe_Normal.png.meta
