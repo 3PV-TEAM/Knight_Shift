@@ -19,10 +19,11 @@ public class PlayerStatus : MonoBehaviour
 
     public float lastStaminaUseTime;       // 마지막 스태미너 사용 시간
 
-    public PlayerUI playerUI;
+    private PlayerUI playerUI;
 
     void Start()
     {
+        playerUI = FindFirstObjectByType<PlayerUI>();
         currentHp = maxHp;
         currentSp = maxSp;
         lastStaminaUseTime = Time.time; // 초기화

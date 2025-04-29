@@ -6,36 +6,510 @@
   <component name="ChangeListManager">
     <list default="true" id="975f744f-261c-47ed-bc26-3abe032e6f67" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DMU_UNITY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DMU_UNITY/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Sword/Base Sword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Sword/Base Sword.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Basic Attack.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Basic Attack.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Claw Attack.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Claw Attack.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Horn Attack.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Horn Attack.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Jump.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Jump.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Sleep.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Sleep.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/defend.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/defend.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/die.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/die.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/getHit.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/getHit.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/idle01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/idle01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/idle02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/idle02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/run.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/run.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/scream.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/scream.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/walk.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/walk.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/walkBack.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/walkBack.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/walkLeft.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/walkLeft.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/walkRight.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonNightMare/walkRight.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Basic Attack.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Basic Attack.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Defend.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Defend.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Die.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Die.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Fireball Shoot.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Fireball Shoot.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Fly Fireball Shoot.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Fly Fireball Shoot.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Fly Float.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Fly Float.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Fly Forward.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Fly Forward.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Fly Glide.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Fly Glide.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Get Hit.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Get Hit.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Idle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Idle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Land.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Land.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Run.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Run.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Scream.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Scream.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Sleeping.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Sleeping.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Tail Attack.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Tail Attack.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Take Off.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Take Off.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Walk.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Walk.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/AttackWingClaw.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/AttackWingClaw.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Basic Attack.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Basic Attack.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Defend.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Defend.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Flame Attack.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Flame Attack.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyAttack.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyAttack.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyForward.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyForward.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyGlide.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyGlide.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyIdle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyIdle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/GetHit.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/GetHit.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Landing.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Landing.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Run.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Run.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/TakeOff.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/TakeOff.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/die.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/die.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/idle01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/idle01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/idle02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/idle02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/scream.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/scream.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/sleep.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/sleep.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/walk.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/walk.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Defend.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Defend.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Die.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Die.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/FlyFlame.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/FlyFlame.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/FlyForward.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/FlyForward.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/FlyGlide.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/FlyGlide.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/FlyIdle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/FlyIdle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Land.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Land.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Run.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Run.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Scream.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Scream.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Sleep.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Sleep.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Walk.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Walk.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/attackFlame.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/attackFlame.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/attackHand.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/attackHand.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/attackMouth.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/attackMouth.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/getHit.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/getHit.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/idle01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/idle01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/idle02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/idle02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/takeOff.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animations/DragonUsurper/takeOff.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animators.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animators/NightmareCTRL.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animators/NightmareCTRL.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animators/SouleaterCTRL.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animators/SouleaterCTRL.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animators/TerrorbringerCTRL.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animators/TerrorbringerCTRL.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animators/UsurperCTRL.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Animators/UsurperCTRL.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonNightmare.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonNightmare/AlbinoPBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonNightmare/AlbinoPBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonNightmare/BluePBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonNightmare/BluePBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonNightmare/GreenPBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonNightmare/GreenPBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonNightmare/RedPBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonNightmare/RedPBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonSoulEater.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonSoulEater/BluePBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonSoulEater/BluePBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonSoulEater/GreenPBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonSoulEater/GreenPBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonSoulEater/PurplePBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonSoulEater/PurplePBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonSoulEater/RedPBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonSoulEater/RedPBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonTerrorBringer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonTerrorBringer/AlbinoPBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonTerrorBringer/AlbinoPBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonTerrorBringer/GreenPBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonTerrorBringer/GreenPBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonTerrorBringer/GreyPBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonTerrorBringer/GreyPBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonTerrorBringer/RedPBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonTerrorBringer/RedPBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonUsurper.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonUsurper/AlbinoPBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonUsurper/AlbinoPBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonUsurper/BluePBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonUsurper/BluePBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonUsurper/DarkPBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonUsurper/DarkPBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonUsurper/RedPBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/DragonUsurper/RedPBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/Stage.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Materials/Stage.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Mesh/DragonSoulEaterMesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Mesh/DragonSoulEaterMesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Mesh/DragonTerrorBringerMesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Mesh/DragonTerrorBringerMesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Mesh/DragonTheNightmareMesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Mesh/DragonTheNightmareMesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Mesh/DragonUsurperMesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Mesh/DragonUsurperMesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Mesh/Stage.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Mesh/Stage.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonNightmare.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonNightmare/Albino.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonNightmare/Albino.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonNightmare/Blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonNightmare/Blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonNightmare/Green.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonNightmare/Green.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonNightmare/Red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonNightmare/Red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonSoulEater.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonSoulEater/Blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonSoulEater/Blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonSoulEater/Green.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonSoulEater/Green.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonSoulEater/Purple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonSoulEater/Purple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonSoulEater/Red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonSoulEater/Red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Albino.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Albino.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Green.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Green.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Grey.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Grey.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonUsurper.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Albino.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Albino.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Black.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Black.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Scene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Scene/MainScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Scene/MainScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Scene/NightmareScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Scene/NightmareScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Scene/SoulEaterScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Scene/SoulEaterScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Scene/TerrorBringerScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Scene/TerrorBringerScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Scene/UsurperScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Scene/UsurperScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Albino.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Albino/AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Albino/AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Albino/Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Albino/Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Albino/Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Albino/Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Albino/Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Albino/Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Blue.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Blue/AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Blue/AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Blue/Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Blue/Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Blue/Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Blue/Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Blue/Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Blue/Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Green.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Green/AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Green/AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Green/Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Green/Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Green/Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Green/Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Green/Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Green/Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Red.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Red/AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Red/AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Red/Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Red/Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Red/Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Red/Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Red/Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Red/Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/Specular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/Specular.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Red.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Red/AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Red/AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Red/Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Red/Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Red/Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Red/Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Red/Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Red/Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Red/Specular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Red/Specular.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/green.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/green/AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/green/AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/green/Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/green/Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/green/Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/green/Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/green/Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/green/Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/green/Specular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/green/Specular.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/Specular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/Specular.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino/Ambient Occlusion Map from Mesh lambert1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino/Ambient Occlusion Map from Mesh lambert1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino/ForSP_lambert1_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino/ForSP_lambert1_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino/ForSP_lambert1_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino/ForSP_lambert1_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino/ForSP_lambert1_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino/ForSP_lambert1_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino/ForSP_lambert1_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino/ForSP_lambert1_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/Ambient Occlusion Map from Mesh lambert1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/Ambient Occlusion Map from Mesh lambert1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/ForSP_lambert1_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/ForSP_lambert1_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/ForSP_lambert1_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/ForSP_lambert1_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/ForSP_lambert1_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/ForSP_lambert1_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/ForSP_lambert1_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/ForSP_lambert1_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/Ambient Occlusion Map from Mesh lambert1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/Ambient Occlusion Map from Mesh lambert1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red/Ambient Occlusion Map from Mesh lambert1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red/Ambient Occlusion Map from Mesh lambert1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red/ForSP_lambert1_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red/ForSP_lambert1_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red/ForSP_lambert1_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red/ForSP_lambert1_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red/ForSP_lambert1_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red/ForSP_lambert1_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red/ForSP_lambert1_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red/ForSP_lambert1_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/MetalSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/MetalSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Blue.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Blue/AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Blue/AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Blue/Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Blue/Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Blue/Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Blue/Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Blue/MetalSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Blue/MetalSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Blue/Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Blue/Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Dark.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/MetalSmooth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/MetalSmooth.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red/AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red/AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red/Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red/Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red/Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red/Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red/MetalSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red/MetalSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red/Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red/Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/License.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/Weapon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/Weapon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_10.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_10.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_11.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_11.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_12.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_12.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_13.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_13.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_15.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_15.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_16.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_16.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_17.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_17.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_18.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_18.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_19.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_19.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_20.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_20.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_21.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_21.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_22.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_22.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_23.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_23.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_24.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_24.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_3.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_3.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_4.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_4.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_5.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_5.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_6.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_6.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_7.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_7.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_8.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_8.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_9.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/_sword_9.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/sword_14.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/fbx/sword_14.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/readme.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/texture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/texture/Texture_MAp_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Sword 3D Low Poly Pack/texture/Texture_MAp_sword.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/PlayerStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/PlayerStatus.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/PlayerUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/PlayerUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/SkillController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/SkillController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/Unity.StarterAssets.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/Unity.StarterAssets.asmdef" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Myth.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Myth.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Material.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Material/Mat_KnightRIO.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Material/Mat_KnightRIO.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Mesh.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Mesh/KnightRIO_Unity.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Mesh/KnightRIO_Unity.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Prefab/KnightRIO.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Prefab/KnightRIO.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Scene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Scene/KnightRIO_Scene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Scene/KnightRIO_Scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Scene/KnightRIO_Scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Scene/KnightRIO_Scene/GlobalVolumeProfile.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Scene/KnightRIO_Scene/GlobalVolumeProfile.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Texture.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Texture/Knight_SP_Flatten_KnightRIO_AlbedoTransparency.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Texture/Knight_SP_Flatten_KnightRIO_AlbedoTransparency.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Texture/Knight_SP_Flatten_KnightRIO_MetallicSmoothness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Texture/Knight_SP_Flatten_KnightRIO_MetallicSmoothness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Texture/Knight_SP_Flatten_KnightRIO_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexModeler/KnightRIO/Texture/Knight_SP_Flatten_KnightRIO_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Myth/Myth.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Myth/Myth.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Myth/NavMesh-Plane.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Myth/NavMesh-Plane.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WeaponDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WeaponDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Outline.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Outline.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,19 +531,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CodeLensConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeLensConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Unity 에디터에 연결.Unity 에디터에 연결">
     <configuration name="유닛 테스트(배치 모드)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Unity.app/Contents/MacOS/Unity" />
@@ -125,6 +599,7 @@
       <workItem from="1744979323896" duration="993000" />
       <workItem from="1745565703494" duration="41000" />
       <workItem from="1745565754964" duration="11162000" />
+      <workItem from="1745889447116" duration="4378000" />
     </task>
     <servers />
   </component>

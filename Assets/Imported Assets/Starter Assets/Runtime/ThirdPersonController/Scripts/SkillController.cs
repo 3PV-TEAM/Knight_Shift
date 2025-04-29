@@ -7,7 +7,7 @@ public class SkillController : MonoBehaviour
 {
     private ThirdPersonController _thirdPersonController;
     private PlayerStatus _playerStatus;
-    public PlayerUI playerUI;
+    private PlayerUI playerUI;
     public float skillCooldownTime = 10f;
     public float currentSkillCooldown;
     private bool isCooldown = false;
@@ -16,6 +16,7 @@ public class SkillController : MonoBehaviour
 
     void Start()
     {
+        playerUI = FindFirstObjectByType<PlayerUI>();
         _thirdPersonController = GetComponent<ThirdPersonController>();
         _playerStatus = GetComponent<PlayerStatus>();
         animator = GetComponent<Animator>();
