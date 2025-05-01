@@ -69,7 +69,9 @@ public class PlayerStatus : MonoBehaviour, IDamageable
     void Die()
     {
         Debug.Log("Player Died");
+        animator.SetTrigger("Death");
         controller.enabled = false;
+        GetComponent<CharacterController>().enabled = false;
     }
 
     public void RunStamina()
