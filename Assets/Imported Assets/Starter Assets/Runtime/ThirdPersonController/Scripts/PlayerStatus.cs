@@ -58,6 +58,7 @@ public class PlayerStatus : MonoBehaviour, IDamageable
         Debug.Log("Damage Taken: " + damageAmount);
         currentHp -= damageAmount;
         animator.SetTrigger("Hit");
+        controller.canMove = true;
         if (currentHp <= 0)
         {
             currentHp = 0;

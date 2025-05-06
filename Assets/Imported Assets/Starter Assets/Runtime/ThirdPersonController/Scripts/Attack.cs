@@ -35,11 +35,13 @@ public class AttackController : MonoBehaviour
 
     public void EnableWeaponCollider()
     {
+        animator.SetBool("isAttacking", true);
         weapon.EnableDamageCollider();
     }
     
     public void DisableWeaponCollider()
     {
+        animator.SetBool("isAttacking", false);
         weapon.DisableDamageCollider();
     }
 }
