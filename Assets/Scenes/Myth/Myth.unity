@@ -1016,7 +1016,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7844007158671606722, guid: fba11908a51474268946f0e951a49560, type: 3}
+      propertyPath: maxSp
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 7844007158671606722, guid: fba11908a51474268946f0e951a49560, type: 3}
+      propertyPath: staminaRecoveryRate
+      value: 30
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4672971616401447831, guid: fba11908a51474268946f0e951a49560, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1418,6 +1427,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4119062057484706837, guid: 78f107b88e5d64d2695a760c7f78a0b9, type: 3}
       propertyPath: attackRange
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4119062057484706837, guid: 78f107b88e5d64d2695a760c7f78a0b9, type: 3}
+      propertyPath: attackCooldown
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4710254536094219270, guid: 78f107b88e5d64d2695a760c7f78a0b9, type: 3}

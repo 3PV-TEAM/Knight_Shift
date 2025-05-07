@@ -577,7 +577,7 @@ ModelImporter:
       loopBlendPositionXZ: 0
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
+      keepOriginalPositionXZ: 1
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
@@ -590,7 +590,7 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.08304498
+      - time: 0.08634531
         functionName: EnableWeaponCollider
         data: 
         objectReferenceParameter: {fileID: 2952856218904513047, guid: fba11908a51474268946f0e951a49560, type: 3}
@@ -604,7 +604,7 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.91935486
+      - time: 0.84014696
         functionName: attackEnd
         data: 
         objectReferenceParameter: {fileID: 2952856218904513047, guid: fba11908a51474268946f0e951a49560, type: 3}

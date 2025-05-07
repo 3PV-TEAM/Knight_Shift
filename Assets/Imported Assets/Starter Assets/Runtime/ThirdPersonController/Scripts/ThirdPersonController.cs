@@ -290,7 +290,7 @@ namespace StarterAssets
                 float rotation = Mathf.SmoothDampAngle(transform.eulerAngles.y, _targetRotation, ref _rotationVelocity,
                     RotationSmoothTime);
 
-                // rotate to face input direction relative to camera position
+                // rotate to face input direction rßelative to camera position
                 transform.rotation = Quaternion.Euler(0.0f, rotation, 0.0f);
             }
 
@@ -441,8 +441,8 @@ namespace StarterAssets
         {  
             if (_input.dash && _hasAnimator && playerStatus.currentSp > 0 && DashCoolDown < coolDownTimer)
             {
-                _animator.SetTrigger(_animIDDash); // Assuming the same trigger for dash
-                _input.dash = false; // Reset dash input after triggering the animation
+                _animator.SetTrigger(_animIDDash);
+                _input.dash = false;
                 coolDownTimer = 0;
             }
         }

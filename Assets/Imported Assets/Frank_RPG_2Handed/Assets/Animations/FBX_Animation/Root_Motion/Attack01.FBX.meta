@@ -591,7 +591,7 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.27279937
+      - time: 0.2760997
         functionName: EnableWeaponCollider
         data: 
         objectReferenceParameter: {fileID: 2952856218904513047, guid: fba11908a51474268946f0e951a49560, type: 3}

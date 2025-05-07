@@ -10,6 +10,8 @@ public class AttackController : MonoBehaviour
     private WeaponManager weaponManager;
     public Weapon weapon;
 
+    private bool isAttacking = false;
+
     void Start()    
     {
         animator = GetComponent<Animator>();
@@ -28,7 +30,7 @@ public class AttackController : MonoBehaviour
         animator.SetTrigger("Attack");
     }
 
-    public void attackEnd()
+    public void attackEnd() // 공격중에 이동 못하게
     {
         thirdPersonController.canMove = true;
     }
