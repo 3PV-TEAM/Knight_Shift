@@ -605,13 +605,6 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.919708
-        functionName: attackEnd
-        data: 
-        objectReferenceParameter: {fileID: 2952856218904513047, guid: fba11908a51474268946f0e951a49560, type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}

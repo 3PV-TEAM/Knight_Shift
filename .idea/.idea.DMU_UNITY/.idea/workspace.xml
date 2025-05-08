@@ -6,9 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="975f744f-261c-47ed-bc26-3abe032e6f67" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DMU_UNITY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DMU_UNITY/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Attack01.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Attack01.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Attack02.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Attack02.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Attack03.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Attack03.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Attack4.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/Attack4.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Skeleton Animation/Skeleton Animations/Animations/Combat/Skeleton@Attack01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Skeleton Animation/Skeleton Animations/Animations/Combat/Skeleton@Attack01.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/Attack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/Attack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/PlayerStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/PlayerStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyStateBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyStateBehavior.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Skeleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Skeleton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +118,7 @@
       <workItem from="1745952959847" duration="1847000" />
       <workItem from="1745954984095" duration="491000" />
       <workItem from="1746002372246" duration="1951000" />
-      <workItem from="1746667137092" duration="3718000" />
+      <workItem from="1746667137092" duration="5367000" />
     </task>
     <servers />
   </component>

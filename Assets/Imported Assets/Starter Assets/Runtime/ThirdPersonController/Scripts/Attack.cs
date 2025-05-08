@@ -9,8 +9,6 @@ public class AttackController : MonoBehaviour
     ThirdPersonController thirdPersonController;
     private WeaponManager weaponManager;
     public Weapon weapon;
-    
-    public bool isAttacking;
 
     void Start()    
     {
@@ -26,13 +24,7 @@ public class AttackController : MonoBehaviour
 
     public void attackProcess()
     {
-        isAttacking = true;
         animator.SetTrigger("Attack");
-    }
-
-    public void attackEnd() // 공격중에 이동 못하게
-    {
-        isAttacking = false;
     }
 
     public void EnableWeaponCollider()

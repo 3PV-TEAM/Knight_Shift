@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using StarterAssets;
 using UnityEngine;
 
@@ -57,14 +59,24 @@ public class PlayerStatus : MonoBehaviour, IDamageable
     {
         Debug.Log("Damage Taken: " + damageAmount);
         currentHp -= damageAmount;
+        
+        controller.canMove = false;
         animator.SetTrigger("Hit");
-        controller.canMove = true;
+
+        StartCoroutine(HitStun(0.5f));
+        
         if (currentHp <= 0)
         {
             currentHp = 0;
             Die();
         }
         playerUI.UpdateUI();
+    }
+
+    IEnumerator HitStun(float time)
+    {
+        yield return new WaitForSeconds(time);
+        controller.canMove = true;
     }
 
     void Die()
