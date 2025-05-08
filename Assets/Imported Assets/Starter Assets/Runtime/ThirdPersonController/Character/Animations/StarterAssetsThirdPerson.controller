@@ -94,6 +94,18 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!114 &-6060826064814988658
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 169e62a6b6fa94648b6030df5f0bd022, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1101 &-5875936874143532807
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -214,12 +226,12 @@ AnimatorStateMachine:
   - {fileID: -5875936874143532807}
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: -1762346473075631061}
-    second:
-    - {fileID: -699645182011195569}
   - first: {fileID: -1590929636099354049}
     second:
     - {fileID: -1795749449853932139}
+  - first: {fileID: -1762346473075631061}
+    second:
+    - {fileID: -699645182011195569}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 220, y: 260, z: 0}
   m_EntryPosition: {x: 220, y: 330, z: 0}
@@ -273,6 +285,30 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!114 &-4983154009398616018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 169e62a6b6fa94648b6030df5f0bd022, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-4023966647599567168
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 169e62a6b6fa94648b6030df5f0bd022, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1101 &-4011312324538235261
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -428,7 +464,8 @@ AnimatorState:
   m_Transitions:
   - {fileID: -3569502641664343921}
   - {fileID: 5636194652161371032}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -6060826064814988658}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -893,9 +930,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: Hit
     m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: isAttacking
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3743520862970102919}
   m_Solo: 0
@@ -977,6 +1011,18 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!114 &3144622180338088640
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 169e62a6b6fa94648b6030df5f0bd022, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1101 &3236635893753311811
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -1090,7 +1136,8 @@ AnimatorState:
   m_Transitions:
   - {fileID: 3051519703847074912}
   - {fileID: -427157470856282963}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -4023966647599567168}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -1278,7 +1325,8 @@ AnimatorState:
   m_Transitions:
   - {fileID: -4011312324538235261}
   - {fileID: 4626541845678546608}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -4983154009398616018}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -1406,7 +1454,8 @@ AnimatorState:
   m_Transitions:
   - {fileID: -7125450392374340325}
   - {fileID: 3236635893753311811}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 3144622180338088640}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
