@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="975f744f-261c-47ed-bc26-3abe032e6f67" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DMU_UNITY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DMU_UNITY/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Skeleton/FBX/Skeleton.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Skeleton/FBX/Skeleton.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Skeleton Animation/Skeleton Animations/Animations/Combat/Skeleton@Attack01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Skeleton Animation/Skeleton Animations/Animations/Combat/Skeleton@Attack01.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/ThirdPersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/ThirdPersonController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AttackStateBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AttackStateBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/PlayerStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/PlayerStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Myth/Myth.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Myth/Myth.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyStateBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyStateBehavior.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Skeleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Skeleton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
@@ -116,7 +115,7 @@
       <workItem from="1745952959847" duration="1847000" />
       <workItem from="1745954984095" duration="491000" />
       <workItem from="1746002372246" duration="1951000" />
-      <workItem from="1746667137092" duration="9361000" />
+      <workItem from="1746667137092" duration="9869000" />
     </task>
     <servers />
   </component>

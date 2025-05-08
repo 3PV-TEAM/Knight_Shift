@@ -23,6 +23,8 @@ public class PlayerStatus : MonoBehaviour, IDamageable
     public float recoveryDelay = 1f;        // 마지막 소모 후 몇 초 뒤에 회복 시작
 
     public float lastStaminaUseTime;       // 마지막 스태미너 사용 시간
+    
+    public bool isDead = false;
 
     private PlayerUI playerUI;
     private ThirdPersonController controller;
@@ -82,6 +84,7 @@ public class PlayerStatus : MonoBehaviour, IDamageable
     void Die()
     {
         Debug.Log("Player Died");
+        isDead = true;
         animator.SetTrigger("Death");
         controller.enabled = false;
         GetComponent<CharacterController>().enabled = false;

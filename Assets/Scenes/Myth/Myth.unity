@@ -137,7 +137,7 @@ NavMeshAgent:
   m_Speed: 3
   m_Acceleration: 8
   avoidancePriority: 50
-  m_AngularSpeed: 120
+  m_AngularSpeed: 240
   m_StoppingDistance: 1.05
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -1231,6 +1231,26 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.7190043
       objectReference: {fileID: 0}
+    - target: {fileID: 5984708138984088028, guid: 446b646ddbb8d44b58936d7d09a8ff22, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.022195
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984708138984088028, guid: 446b646ddbb8d44b58936d7d09a8ff22, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984708138984088028, guid: 446b646ddbb8d44b58936d7d09a8ff22, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984708138984088028, guid: 446b646ddbb8d44b58936d7d09a8ff22, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984708138984088028, guid: 446b646ddbb8d44b58936d7d09a8ff22, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8800844256606471407, guid: 446b646ddbb8d44b58936d7d09a8ff22, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.18510036
@@ -1238,6 +1258,26 @@ PrefabInstance:
     - target: {fileID: 8800844256606471407, guid: 446b646ddbb8d44b58936d7d09a8ff22, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.7190043
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800844256606471407, guid: 446b646ddbb8d44b58936d7d09a8ff22, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.022195
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800844256606471407, guid: 446b646ddbb8d44b58936d7d09a8ff22, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800844256606471407, guid: 446b646ddbb8d44b58936d7d09a8ff22, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800844256606471407, guid: 446b646ddbb8d44b58936d7d09a8ff22, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800844256606471407, guid: 446b646ddbb8d44b58936d7d09a8ff22, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1433,6 +1473,10 @@ PrefabInstance:
       propertyPath: attackCooldown
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4119062057484706837, guid: 78f107b88e5d64d2695a760c7f78a0b9, type: 3}
+      propertyPath: playerTransform
+      value: 
+      objectReference: {fileID: 1945946228}
     - target: {fileID: 4710254536094219270, guid: 78f107b88e5d64d2695a760c7f78a0b9, type: 3}
       propertyPath: m_Layer
       value: 6
