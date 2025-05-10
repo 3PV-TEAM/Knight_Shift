@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6738338645186566538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1906973768545554952}
+  - component: {fileID: 3493366955773201584}
+  m_Layer: 0
+  m_Name: Map Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1906973768545554952
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6738338645186566538}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.5111804, y: -0.05286886, z: -2.5652423}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3493366955773201584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6738338645186566538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 863becb6543e94fc2b55a14b38926258, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalLayers: 3
+  minNodesPerLayer: 15
+  maxNodesPerLayer: 20
+  minDepthPerLayer: 10
+  maxDepthPerLayer: 12
+  minBranchesPerNode: 1
+  maxBranchesPerNode: 3
+  branchingProbability: 0.7
+  nodeTypeDistributions: []
+  campFrequency: 3
+  placeShopOrCampBeforeBoss: 1
+  maxConsecutiveBattles: 3
+  battleSceneName: Battle
+  eventSceneName: Event
+  shopSceneName: Shop
+  campSceneName: Camp
+  eliteSceneName: Elite
+  bossSceneName: Boss
