@@ -7,6 +7,7 @@ public class BearAI : MonoBehaviour, IDamageable
     [SerializeField] float maxHp = 100f;
     private float currentHp;
     private bool isDead = false;
+    private bool isHit = false; // hit 애니메이션 재생 중인지 여부
 
     [Header("공격 설정")]
     [SerializeField] float attackRange = 2.5f;
@@ -65,6 +66,13 @@ public class BearAI : MonoBehaviour, IDamageable
     {
         if (isDead || player == null) return;
 
+        // Hit 상태일 때는 다른 행동 제한
+        if (isHit)
+        {
+            agent.isStopped = true;
+            return;
+        }
+
         animator.SetFloat("Speed", agent.velocity.magnitude);
 
         float distance = Vector3.Distance(transform.position, player.position);
@@ -87,6 +95,9 @@ public class BearAI : MonoBehaviour, IDamageable
 
     void Attack()
     {
+        // Hit 상태일 때는 공격하지 않음
+        if (isHit) return;
+        
         // 공격 타입 선택 (예: 랜덤, 거리, 방향 등)
         currentAttackType = ChooseAttackType();
 
@@ -153,11 +164,18 @@ public class BearAI : MonoBehaviour, IDamageable
         Debug.Log($"{name} 피격! 남은 체력: {currentHp}");
 
         animator.SetTrigger("Hit");
+        isHit = true; // Hit 상태 설정
 
         if (currentHp <= 0)
         {
             Die();
         }
+    }
+
+    // 애니메이션 이벤트에서 호출할 메서드 - Hit 애니메이션 종료 시 호출
+    public void OnHitAnimationEnd()
+    {
+        isHit = false; // Hit 상태 해제
     }
 
     void Die()
