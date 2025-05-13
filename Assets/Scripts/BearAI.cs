@@ -21,12 +21,12 @@ public class BearAI : MonoBehaviour, IDamageable
     private Transform player;
     private NavMeshAgent agent;
     private Animator animator;
-    private Collider collider;
+    private Collider mainCollider;
 
     [Header("공격 판정 콜라이더")]
-    [SerializeField] Collider biteCollider;
-    [SerializeField] Collider rightPawCollider;
-    [SerializeField] Collider leftPawCollider;
+    [SerializeField] AttackCollider biteCollider;
+    [SerializeField] AttackCollider rightPawCollider;
+    [SerializeField] AttackCollider leftPawCollider;
 
     private enum BearAttackType { Bite, RightPaw, LeftPaw }
     private BearAttackType currentAttackType;
@@ -35,12 +35,17 @@ public class BearAI : MonoBehaviour, IDamageable
     {
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
-        collider = GetComponent<Collider>();
+        mainCollider = GetComponent<Collider>();
 
         // 공격 콜라이더는 평소에는 비활성화
-        if (biteCollider) biteCollider.enabled = false;
-        if (rightPawCollider) rightPawCollider.enabled = false;
-        if (leftPawCollider) leftPawCollider.enabled = false;
+        if (biteCollider) biteCollider.gameObject.SetActive(false);
+        if (rightPawCollider) rightPawCollider.gameObject.SetActive(false);
+        if (leftPawCollider) leftPawCollider.gameObject.SetActive(false);
+        
+        // 각 콜라이더에 데미지 값 설정
+        if (biteCollider) biteCollider.damageAmount = biteDamage;
+        if (rightPawCollider) rightPawCollider.damageAmount = rightPawDamage;
+        if (leftPawCollider) leftPawCollider.damageAmount = leftPawDamage;
     }
 
     void Start()
@@ -85,6 +90,11 @@ public class BearAI : MonoBehaviour, IDamageable
         // 공격 타입 선택 (예: 랜덤, 거리, 방향 등)
         currentAttackType = ChooseAttackType();
 
+        // 플레이어를 향해 회전
+        Vector3 dirToPlayer = (player.position - transform.position).normalized;
+        dirToPlayer.y = 0; // Y축 회전만 고려
+        transform.forward = dirToPlayer;
+
         switch (currentAttackType)
         {
             case BearAttackType.Bite:
@@ -116,45 +126,22 @@ public class BearAI : MonoBehaviour, IDamageable
         switch (currentAttackType)
         {
             case BearAttackType.Bite:
-                if (biteCollider) biteCollider.enabled = true;
+                if (biteCollider) biteCollider.gameObject.SetActive(true);
                 break;
             case BearAttackType.RightPaw:
-                if (rightPawCollider) rightPawCollider.enabled = true;
+                if (rightPawCollider) rightPawCollider.gameObject.SetActive(true);
                 break;
             case BearAttackType.LeftPaw:
-                if (leftPawCollider) leftPawCollider.enabled = true;
+                if (leftPawCollider) leftPawCollider.gameObject.SetActive(true);
                 break;
         }
     }
+    
     public void DisableAttackCollider()
     {
-        if (biteCollider) biteCollider.enabled = false;
-        if (rightPawCollider) rightPawCollider.enabled = false;
-        if (leftPawCollider) leftPawCollider.enabled = false;
-    }
-
-    // 무기 콜라이더에서 호출 (각 콜라이더에 이 스크립트 연결 필요)
-    private void OnTriggerEnter(Collider other)
-    {
-        if (!isAttacking) return;
-        if (!other.CompareTag("Player")) return;
-
-        IDamageable damageable = other.GetComponent<IDamageable>();
-        if (damageable != null)
-        {
-            switch (currentAttackType)
-            {
-                case BearAttackType.Bite:
-                    damageable.TakeDamage(biteDamage);
-                    break;
-                case BearAttackType.RightPaw:
-                    damageable.TakeDamage(rightPawDamage);
-                    break;
-                case BearAttackType.LeftPaw:
-                    damageable.TakeDamage(leftPawDamage);
-                    break;
-            }
-        }
+        if (biteCollider) biteCollider.gameObject.SetActive(false);
+        if (rightPawCollider) rightPawCollider.gameObject.SetActive(false);
+        if (leftPawCollider) leftPawCollider.gameObject.SetActive(false);
     }
 
     // 데미지 처리
@@ -177,7 +164,7 @@ public class BearAI : MonoBehaviour, IDamageable
     {
         isDead = true;
         animator.SetTrigger("Death");
-        collider.enabled = false;
+        mainCollider.enabled = false;
         agent.isStopped = true;
         Destroy(gameObject, 3f);
     }

@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "DMU.sln"
+    "dotnet.defaultSolution": "DMU_UNITY.sln"
 }
