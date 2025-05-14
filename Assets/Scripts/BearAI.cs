@@ -29,12 +29,18 @@ public class BearAI : MonoBehaviour, IDamageable
     [SerializeField] AttackCollider rightPawCollider;
     [SerializeField] AttackCollider leftPawCollider;
 
+    [Header("회전 설정")]
+    [SerializeField] float rotationSpeed = 10f; // 플레이어를 바라보는 회전 속도
+
     private enum BearAttackType { Bite, RightPaw, LeftPaw }
     private BearAttackType currentAttackType;
+
+    private float animSpeed = 0f; // 부드러운 애니메이션 전환용
 
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false; // 수동 회전 제어를 위해 비활성화
         animator = GetComponent<Animator>();
         mainCollider = GetComponent<Collider>();
 
@@ -66,20 +72,42 @@ public class BearAI : MonoBehaviour, IDamageable
     {
         if (isDead || player == null) return;
 
-        
-
-        animator.SetFloat("Speed", agent.velocity.magnitude);
-
         float distance = Vector3.Distance(transform.position, player.position);
+
+        // 플레이어 방향 벡터
+        Vector3 dirToPlayer = (player.position - transform.position).normalized;
+        dirToPlayer.y = 0;
+
+        // 상태에 따라 회전 처리
+        if (!isDead && !isHit)
+        {
+            // 공격 범위 내에서는 항상 플레이어를 바라본다
+            Quaternion targetRotation = Quaternion.LookRotation(dirToPlayer);
+            transform.rotation = Quaternion.Slerp(
+                transform.rotation,
+                targetRotation,
+                rotationSpeed * Time.deltaTime
+            );
+        }
+
+        // 애니메이션 Speed 파라미터 부드럽게 처리
+        float targetSpeed = (!agent.isStopped) ? agent.velocity.magnitude : 0f;
+        animSpeed = Mathf.Lerp(animSpeed, targetSpeed, Time.deltaTime * 10f);
+        animator.SetFloat("Speed", animSpeed);
 
         if (distance <= attackRange)
         {
+            agent.isStopped = true; // 이동 중지
+
             if (isAttacking)
             {
                 attackTimer -= Time.deltaTime;
                 if (attackTimer <= 0) isAttacking = false;
             }
-            else Attack();
+            else
+            {
+                Attack();
+            }
         }
         else
         {
@@ -90,17 +118,11 @@ public class BearAI : MonoBehaviour, IDamageable
 
     void Attack()
     {
-        // Hit 상태일 때는 공격하지 않음
-        if (isHit) return;
-        
-        // 공격 타입 선택 (예: 랜덤, 거리, 방향 등)
+        if (isHit || isAttacking) return;
+
         currentAttackType = ChooseAttackType();
 
-        // 플레이어를 향해 회전
-        Vector3 dirToPlayer = (player.position - transform.position).normalized;
-        dirToPlayer.y = 0; // Y축 회전만 고려
-        transform.forward = dirToPlayer;
-
+        // 공격 애니메이션 트리거
         switch (currentAttackType)
         {
             case BearAttackType.Bite:
@@ -114,7 +136,6 @@ public class BearAI : MonoBehaviour, IDamageable
                 break;
         }
 
-        agent.isStopped = true;
         isAttacking = true;
         attackTimer = attackCooldown;
     }
@@ -148,6 +169,13 @@ public class BearAI : MonoBehaviour, IDamageable
         if (biteCollider) biteCollider.gameObject.SetActive(false);
         if (rightPawCollider) rightPawCollider.gameObject.SetActive(false);
         if (leftPawCollider) leftPawCollider.gameObject.SetActive(false);
+    }
+
+    // 애니메이션 이벤트에서 호출 (공격 애니메이션 종료 시)
+    public void OnAttackAnimationEnd()
+    {
+        isAttacking = false;
+        // 공격이 끝나도 플레이어를 계속 바라보게 하려면 별도 처리 필요 없음
     }
 
     // 데미지 처리
