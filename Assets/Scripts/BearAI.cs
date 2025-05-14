@@ -66,12 +66,7 @@ public class BearAI : MonoBehaviour, IDamageable
     {
         if (isDead || player == null) return;
 
-        // Hit 상태일 때는 다른 행동 제한
-        if (isHit)
-        {
-            agent.isStopped = true;
-            return;
-        }
+        
 
         animator.SetFloat("Speed", agent.velocity.magnitude);
 

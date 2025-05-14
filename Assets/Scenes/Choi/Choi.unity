@@ -978,7 +978,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5090774978836444674, guid: fba11908a51474268946f0e951a49560, type: 3}
       propertyPath: MoveSpeed
-      value: 40
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 5274782154253068523, guid: fba11908a51474268946f0e951a49560, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1616,6 +1616,14 @@ PrefabInstance:
     - target: {fileID: 1850603680485525716, guid: 87064853c0610d245b3b0117f7b99cbd, type: 3}
       propertyPath: m_Name
       value: Bear_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1850603680485525716, guid: 87064853c0610d245b3b0117f7b99cbd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2593738497685384554, guid: 87064853c0610d245b3b0117f7b99cbd, type: 3}
+      propertyPath: attackCooldown
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5946846080721046044, guid: 87064853c0610d245b3b0117f7b99cbd, type: 3}
       propertyPath: m_LocalPosition.x
