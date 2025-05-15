@@ -323,7 +323,6 @@ namespace StarterAssets
                 {
                     if (_hasAnimator)
                     {
-                        canMove = false; // Disable movement during jump
                         _animator.SetTrigger("JumpTrigger");
                         _input.jump = false; // Reset jump input
                     }
