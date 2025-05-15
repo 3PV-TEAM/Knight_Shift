@@ -322,39 +322,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 863becb6543e94fc2b55a14b38926258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalLayers: 6
-  minNodesPerLayer: 1
-  maxNodesPerLayer: 3
-  minBranchesPerNode: 1
-  maxBranchesPerNode: 2
-  nodeTypeDistributions:
-  - nodeType: 0
-    percentage: 50
-  - nodeType: 2
-    percentage: 20
-  - nodeType: 1
-    percentage: 20
-  - nodeType: 3
-    percentage: 10
-  placeShopOrCampBeforeBoss: 1
-  placeCampBeforeBattle: 1
-  shopEarlyLayerLimit: 3
-  mapNodes: []
-  nextNodeId: 0
-  currentNode:
-    id: 0
-    nodeType: 0
-    layer: 0
-    depth: 0
-    position: {x: 0, y: 0}
-    sceneName: 
-    difficultyMultiplier: 1
-    rewardMultiplier: 1
-    childNodeIds: 
-    parentNodeIds: 
-    isAccessible: 0
-    isCompleted: 0
-    isCurrent: 0
 --- !u!4 &46221035
 Transform:
   m_ObjectHideFlags: 0
@@ -1937,6 +1904,10 @@ PrefabInstance:
       propertyPath: staminaRecoveryRate
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 8793366181003717237, guid: fba11908a51474268946f0e951a49560, type: 3}
+      propertyPath: analogMovement
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4672971616401447831, guid: fba11908a51474268946f0e951a49560, type: 3}
     m_RemovedGameObjects: []
@@ -2136,15 +2107,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 574855c1e54bf4dc8ab144eac1d7eede, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapContainer: {fileID: 1361490176}
-  nodeUIPrefab: {fileID: 4818023823884885315, guid: 156ff318fd0bc4fb3bd71f763cc946e5, type: 3}
-  tooltipPanel: {fileID: 461053151}
-  tooltipTitle: {fileID: 2039283413}
-  tooltipDescription: {fileID: 6260721}
-  nodeSpacingX: 250
-  nodeSpacingY: 200
-  layerSpacingY: 250
-  mapController: {fileID: 0}
 --- !u!1001 &2581693772011231896
 PrefabInstance:
   m_ObjectHideFlags: 0
