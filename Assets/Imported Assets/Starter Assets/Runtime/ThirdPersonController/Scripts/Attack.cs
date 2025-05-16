@@ -26,6 +26,7 @@ public class AttackController : MonoBehaviour
 
     public void attackProcess()
     {
+
         thirdPersonController.canMove = false;
         animator.SetTrigger("Attack");
     }
