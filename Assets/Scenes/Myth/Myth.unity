@@ -128,7 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 46221035}
-  - component: {fileID: 46221034}
+  - component: {fileID: 46221036}
   m_Layer: 0
   m_Name: Map Controller
   m_TagString: Untagged
@@ -136,35 +136,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &46221034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 46221033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 863becb6543e94fc2b55a14b38926258, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  totalLayers: 6
-  minNodesPerLayer: 1
-  maxNodesPerLayer: 3
-  minBranchesPerNode: 1
-  maxBranchesPerNode: 2
-  nodeTypeDistributions:
-  - nodeType: 0
-    percentage: 50
-  - nodeType: 2
-    percentage: 20
-  - nodeType: 1
-    percentage: 20
-  - nodeType: 3
-    percentage: 10
-  placeShopOrCampBeforeBoss: 1
-  placeCampBeforeBattle: 1
-  shopEarlyLayerLimit: 3
 --- !u!4 &46221035
 Transform:
   m_ObjectHideFlags: 0
@@ -180,6 +151,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &46221036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46221033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 863becb6543e94fc2b55a14b38926258, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalLayers: 6
+  minNodesPerLayer: 1
+  maxNodesPerLayer: 2
+  minBranchesPerNode: 1
+  maxBranchesPerNode: 1
+  placeShopOrCampBeforeBoss: 1
+  placeCampBeforeBattle: 0
+  shopEarlyLayerLimit: 3
+  battleProbability: 0.5
+  campProbability: 0.2
+  shopProbability: 0.15
+  eliteProbability: 0.15
 --- !u!4 &54706867 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 326774132883182683, guid: 446b646ddbb8d44b58936d7d09a8ff22, type: 3}
@@ -253,6 +248,11 @@ Transform:
   - {fileID: 291587252}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &114513265 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5785329960155343324, guid: dce9363880e81443487a424050f128c6, type: 3}
+  m_PrefabInstance: {fileID: 8848259201601877594}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &184180925
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,12 +798,33 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8767770707759775297, guid: dce9363880e81443487a424050f128c6, type: 3}
   m_PrefabInstance: {fileID: 8848259201601877594}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 114513265}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a24e25518cfa34132be2f9d9c7a5b9f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &613336665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114513265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df6c5c95feff404dbfd54929d342ade, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battlePortalPrefab: {fileID: 314702941245235798, guid: 67b680489550b437a976adef4d9c5aa3, type: 3}
+  shopPortalPrefab: {fileID: 4224510406507024101, guid: 8f654bec39e3445e7929613eb81a8369, type: 3}
+  campPortalPrefab: {fileID: 314702941245235798, guid: df48e78a15805440db722a0c3eda6f9b, type: 3}
+  elitePortalPrefab: {fileID: 314702941245235798, guid: a27d799f29f90412fbef5936f264515c, type: 3}
+  bossPortalPrefab: {fileID: 314702941245235798, guid: ade65d276458940e8a27835e85c1b929, type: 3}
+  portalParent: {fileID: 1433879710}
+  portalSpacingX: 3
+  portalSpacingZ: 3
+  startPosition: {x: 3, y: 0, z: 3}
 --- !u!114 &695769476 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9029386400567560612, guid: a90908edbe7d74089820256ab014b2a6, type: 3}
@@ -815,6 +836,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 211fa4f8c0bde498bbd9d7fc515ad2d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1433879709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1433879710}
+  m_Layer: 0
+  m_Name: Portal Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1433879710
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433879709}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.76, y: 0.83648014, z: 9.73}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1746600959 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 554872173363571866, guid: a90908edbe7d74089820256ab014b2a6, type: 3}
@@ -1298,7 +1350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7328318111873923081, guid: 78f107b88e5d64d2695a760c7f78a0b9, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7996346551548912307, guid: 78f107b88e5d64d2695a760c7f78a0b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1424,7 +1476,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5785329960155343324, guid: dce9363880e81443487a424050f128c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 613336665}
   m_SourcePrefab: {fileID: 100100000, guid: dce9363880e81443487a424050f128c6, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -1440,3 +1495,4 @@ SceneRoots:
   - {fileID: 7292993024956358980}
   - {fileID: 7110462366300384233}
   - {fileID: 46221035}
+  - {fileID: 1433879710}
