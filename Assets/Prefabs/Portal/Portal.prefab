@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6886189584402387337}
-  - component: {fileID: 7369913787861677042}
   - component: {fileID: 4337627198704080418}
   m_Layer: 0
   m_Name: Portal
@@ -34,19 +33,6 @@ Transform:
   - {fileID: 5456113047641718761}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7369913787861677042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3121539684087023174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51649ff74eb4e4dffaa6d841456c8de9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneNumber: 1
 --- !u!65 &4337627198704080418
 BoxCollider:
   m_ObjectHideFlags: 0
