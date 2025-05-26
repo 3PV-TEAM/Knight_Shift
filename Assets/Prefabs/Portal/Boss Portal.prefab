@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3121539684087023174, guid: ec0a19dc546834a77910567c9fe95eb2, type: 3}
       propertyPath: m_Name
-      value: Portal
+      value: Boss Portal
       objectReference: {fileID: 0}
     - target: {fileID: 6886189584402387337, guid: ec0a19dc546834a77910567c9fe95eb2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -51,6 +51,14 @@ PrefabInstance:
     - target: {fileID: 6886189584402387337, guid: ec0a19dc546834a77910567c9fe95eb2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369913787861677042, guid: ec0a19dc546834a77910567c9fe95eb2, type: 3}
+      propertyPath: sceneName
+      value: Boss
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369913787861677042, guid: ec0a19dc546834a77910567c9fe95eb2, type: 3}
+      propertyPath: sceneNumber
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
