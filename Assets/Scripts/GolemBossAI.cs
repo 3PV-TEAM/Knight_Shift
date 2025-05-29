@@ -213,14 +213,13 @@ public class GolemBossAI : MonoBehaviour, IDamageable
         float radius = 3f; // 골렘 주위를 도는 반경
         float orbitSpeed = 120f; // 초당 회전 각도
         float currentAngle = 0f;
-        float rockHeight = 5f; // 바위 높이를 5로 증가
 
         // 바위 4개 생성
         for (int i = 0; i < 4; i++)
         {
-            float angle = i * (360f / 4);
+            float angle = i * (360f / 4); // 90도 간격으로 배치
             Vector3 spawnPos = transform.position + (Quaternion.Euler(0, angle, 0) * (Vector3.forward * radius));
-            spawnPos.y = transform.position.y + rockHeight; // 더 높은 위치에 생성
+            spawnPos.y = transform.position.y + 2f;
             
             GameObject rock = Instantiate(rockPrefab, spawnPos, Quaternion.identity);
             rocks.Add(rock);
@@ -239,7 +238,7 @@ public class GolemBossAI : MonoBehaviour, IDamageable
                 {
                     float angle = currentAngle + (i * (360f / 4));
                     Vector3 orbitPosition = transform.position + (Quaternion.Euler(0, angle, 0) * (Vector3.forward * radius));
-                    orbitPosition.y = transform.position.y + rockHeight; // 회전할 때도 높이 유지
+                    orbitPosition.y = transform.position.y + 2f;
                     rocks[i].transform.position = orbitPosition;
                 }
             }
@@ -247,17 +246,17 @@ public class GolemBossAI : MonoBehaviour, IDamageable
             yield return null;
         }
 
-        // 순차적으로 바위 발사하는 부분 수정
+        // 순차적으로 바위 발사
         for (int i = 0; i < rocks.Count; i++)
         {
             if (rocks[i] != null)
             {
                 StartCoroutine(LaunchRock(rocks[i]));
-                yield return new WaitForSeconds(0.7f); // 발사 간격 조정
+                yield return new WaitForSeconds(0.5f);
             }
         }
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2f);
         isAttacking = false;
     }
 
@@ -266,37 +265,24 @@ public class GolemBossAI : MonoBehaviour, IDamageable
         if (rock == null) yield break;
 
         Vector3 startPos = rock.transform.position;
-        float launchDuration = 1f;
+        Vector3 targetPos = player.position;
+        float launchDuration = 0.5f;
         float timer = 0f;
 
-        // 바위가 날아갈 때 실시간으로 플레이어를 추적
         while (timer < launchDuration)
         {
             if (rock == null) yield break;
 
             timer += Time.deltaTime;
             float progress = timer / launchDuration;
-            
-            // 매 프레임마다 플레이어의 현재 위치를 타겟으로 설정
-            Vector3 targetPos = player.position;
-            targetPos.y = startPos.y; // 시작 높이 유지
-
-            // 포물선 형태로 날아가도록
-            Vector3 currentPos = Vector3.Lerp(startPos, targetPos, progress);
-            float height = Mathf.Sin(progress * Mathf.PI) * 2f;
-            currentPos.y = startPos.y + height;
-            
-            rock.transform.position = currentPos;
+            rock.transform.position = Vector3.Lerp(startPos, targetPos, progress);
             yield return null;
         }
 
-        // 바위가 목표 지점에 도달하면 데미지 처리
+        // 바위가 닿으면 데미지를 주고 파괴
         if (rock != null)
         {
-            Vector3 explosionPos = rock.transform.position;
-            explosionPos.y = player.position.y;
-
-            Collider[] hitColliders = Physics.OverlapSphere(explosionPos, 1.5f);
+            Collider[] hitColliders = Physics.OverlapSphere(rock.transform.position, 1f);
             foreach (var hitCollider in hitColliders)
             {
                 if (hitCollider.CompareTag("Player"))
