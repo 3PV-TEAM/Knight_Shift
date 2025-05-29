@@ -1,5 +1,5 @@
 # 로그라이크 액션 RPG - [Knight Shift]
-![Knight Shift 로고](/logo.png)
+<img src="/logo.png" alt="Knight Shift 로고" width="500"/>
 
 > 🎮 3인칭 시점의 로그라이크 액션 RPG!  
 > 다크소울의 긴장감과 하데스의 전략성을 결합한, 던전 클리어형 스테이지 기반 판타지 게임.
