@@ -1371,6 +1371,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 9096772843721404921, guid: 03f1d159dca2461468dd7a6c9c8d8835, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2901872581562191945, guid: 03f1d159dca2461468dd7a6c9c8d8835, type: 3}
     m_RemovedGameObjects: []
