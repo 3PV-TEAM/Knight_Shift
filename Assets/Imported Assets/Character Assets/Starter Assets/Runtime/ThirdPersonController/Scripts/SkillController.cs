@@ -44,7 +44,6 @@ public class SkillController : MonoBehaviour
         {
             if (_thirdPersonController.canMove && _playerStatus.currentSp >= 30)
             {
-                _thirdPersonController.canMove = false;
                 skillActivate();
             }
         }

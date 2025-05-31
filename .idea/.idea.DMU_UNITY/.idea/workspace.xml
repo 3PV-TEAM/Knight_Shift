@@ -5,28 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="975f744f-261c-47ed-bc26-3abe032e6f67" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PersistentObjectManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PersistentObjectManager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DMU_UNITY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DMU_UNITY/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Font/korean.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/korean.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Character Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/spin skill.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Character Assets/Frank_RPG_2Handed/Assets/Animations/FBX_Animation/Root_Motion/spin skill.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Character Assets/Starter Assets/Runtime/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Character Assets/Starter Assets/Runtime/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Portal/Battle Portal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Portal/Battle Portal.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Portal/Boss Portal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Portal/Boss Portal.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Portal/Camp Portal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Portal/Camp Portal.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Portal/Elite Portal.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Portal/Elite Portal.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Portal/Event Portal.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Portal/Event Portal.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Portal/Shop Portal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Portal/Shop Portal.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Event.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Event.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Myth/Myth.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Myth/Myth.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Character Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/SkillController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Character Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/SkillController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Camera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Camera.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Map Controller.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Map Controller.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Map Controller.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Map Controller.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Battle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Battle.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Boss.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Boss.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Camp.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Camp.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Shop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Shop.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Start.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Start.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AttackStateBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AttackStateBehavior.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapSystem/MapController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapSystem/MapController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapSystem/MapNodeUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapSystem/MapNodeUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapSystem/MapUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapSystem/MapUIManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapSystem/PortalGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapSystem/PortalGenerator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Portal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Portal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapon/WeaponDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapon/WeaponDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +137,7 @@
       <workItem from="1747200839848" duration="2747000" />
       <workItem from="1747272195629" duration="5776000" />
       <workItem from="1747742628995" duration="1244000" />
+      <workItem from="1748408892952" duration="6181000" />
     </task>
     <servers />
   </component>
