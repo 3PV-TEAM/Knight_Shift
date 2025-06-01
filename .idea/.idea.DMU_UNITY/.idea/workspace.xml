@@ -6,43 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="975f744f-261c-47ed-bc26-3abe032e6f67" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DMU_UNITY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DMU_UNITY/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Axe/Base Axe.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Axe/Base Axe.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Axe/Upgrade Axe - 1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Axe/Upgrade Axe - 1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Sword/Base Sword.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Sword/Base Sword.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Sword/Upgrade Sword - 1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Sword/Upgrade Sword - 1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Sword/Upgrade Sword - 2.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Sword/Upgrade Sword - 2.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Sword/Upgrade Sword - 3.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Sword/Upgrade Sword - 3.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Font/korean.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/korean.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Sword8_Material_Corrupted.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Sword8_Material_Corrupted.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Weapon/Art/Weapons/Stylized/Staves/Materials_Staves/Staff4_1_1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Weapon/Art/Weapons/Stylized/Staves/Materials_Staves/Staff4_1_1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Weapon/Art/Weapons/Stylized/Staves/Materials_Staves/Staff5_1_1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Weapon/Art/Weapons/Stylized/Staves/Materials_Staves/Staff5_1_1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Manager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Manager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Daniel Mistage/Stylized Fantasy Armory/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Daniel Mistage/Stylized Fantasy Armory/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Daniel Mistage/Stylized Fantasy Armory/Scenes/SampleScene_Profiles/Global Volume_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Daniel Mistage/Stylized Fantasy Armory/Scenes/SampleScene_Profiles/Global Volume_1.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Normal UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Normal UI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Skeleton.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Skeleton.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapon/Axe/Base Axe.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapon/Axe/Base Axe.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapon/Axe/Upgrade Axe - 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapon/Axe/Upgrade Axe - 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Battle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Battle.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Boss.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Boss.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Camp.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Camp.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Shop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Shop.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Start.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Start.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SelectSlot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SelectSlot.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapon/UpgradeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapon/UpgradeManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapon/WeaponData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapon/WeaponData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapon/WeaponDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapon/WeaponDisplay.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapon/WeaponManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapon/WeaponManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +27,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AttackStateBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IDamagable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Portal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PreviewCameraManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core/Runtime/Debugging/DebugDisplaySettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Passes/AdditionalLightsShadowCasterPass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal/Shaders/Lit.shader" root0="SKIP_HIGHLIGHTING" />
@@ -71,19 +47,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/map&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CodeLensConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CodeLensConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Unity 에디터에 연결.Unity 에디터에 연결">
     <configuration name="유닛 테스트(배치 모드)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Unity.app/Contents/MacOS/Unity" />
