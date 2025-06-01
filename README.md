@@ -21,7 +21,7 @@
 
 ## 🛠️ 사용 기술
 
-- **Unity 2022.3 LTS**  
+- **Unity 6 LTS**  
 - **C#**  
 - **URP (Universal Render Pipeline)**   
 - **Git / GitHub로 협업 관리**  
