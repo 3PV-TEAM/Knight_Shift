@@ -13,14 +13,27 @@ public class WeaponDisplay : MonoBehaviour
 
     public WeaponManager weaponManager;
     UIManager uiManager;
-
-    void Start()
+    
+    void OnEnable()
     {
-        uiManager = FindFirstObjectByType<UIManager>();
+        if (weaponManager == null)
+        {
+            weaponManager = WeaponManager.Instance;
+        }
+
+        if (uiManager == null)
+        {
+            uiManager = FindFirstObjectByType<UIManager>();
+        }
     }
 
     public void DisplaySetWeapon(WeaponData weaponData)
     {
+        if (weaponManager == null)
+        {
+            weaponManager = WeaponManager.Instance;
+        }
+        
         assignedWeaponPrefab = weaponData.weaponModelPrefab;
 
         // 기존 무기 제거
@@ -43,7 +56,7 @@ public class WeaponDisplay : MonoBehaviour
         {
             weaponNameText.text = "Unknown Weapon";
         }
-
+        
         if (weaponData != null && weaponManager != null)
         {
             selectButton.onClick.RemoveAllListeners();

@@ -9,12 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9202599318582130584}
-  - component: {fileID: 4536342182747011109}
-  - component: {fileID: 8080566161191478199}
   - component: {fileID: 8767770707759775297}
+  - component: {fileID: 1855607433930328814}
   m_Layer: 0
   m_Name: Manager
-  m_TagString: Untagged
+  m_TagString: Manager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34,43 +33,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4536342182747011109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5785329960155343324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec8c0d7963c2140398cb5a593e9beff3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  allWeapons:
-  - {fileID: 11400000, guid: cc1e5e90b51044da0bb0a05267543a65, type: 2}
-  - {fileID: 11400000, guid: 4a9765357e2ba4cbd81a02b7f9de1451, type: 2}
-  - {fileID: 11400000, guid: e1b8f23930a1e4ff59aad9174f0245bd, type: 2}
-  - {fileID: 11400000, guid: 580ec73593f2e448bb738d6234f6b63a, type: 2}
-  - {fileID: 11400000, guid: fcc01a47706d842e5b402822019ec62c, type: 2}
-  - {fileID: 11400000, guid: 51eb5141e48304403bd4458995aa53f7, type: 2}
-  displaySlots:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
---- !u!114 &8080566161191478199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5785329960155343324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017b2dde3bae34c61b90ee0e7da117b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uiPanel: {fileID: 0}
-  vcam: {fileID: 0}
 --- !u!114 &8767770707759775297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,3 +51,20 @@ MonoBehaviour:
   StartWeaponData: {fileID: 11400000, guid: 4a9765357e2ba4cbd81a02b7f9de1451, type: 2}
   testWeaponData: {fileID: 11400000, guid: 51eb5141e48304403bd4458995aa53f7, type: 2}
   animator: {fileID: 0}
+--- !u!114 &1855607433930328814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5785329960155343324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 530ceace434eb4daca5f403a8fc804c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  persistentTags:
+  - Player
+  - Camera
+  - UI
+  - Manager

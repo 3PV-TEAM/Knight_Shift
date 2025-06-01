@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 namespace MapSystem
 {
@@ -9,22 +10,9 @@ namespace MapSystem
     {
         Start,
         Battle,
-        Event,
         Shop,
         Camp,
-        Elite,
         Boss
-    }
-    
-    [System.Serializable]
-    public class NodeTypeDistribution
-    {
-        [Tooltip("노드 타입")]
-        public NodeType nodeType;
-        
-        [Tooltip("생성 확률 (%)")]
-        [Range(0, 100)]
-        public float percentage;
     }
     
     [System.Serializable]
@@ -74,6 +62,9 @@ namespace MapSystem
 
     public class MapController : MonoBehaviour
     {
+        // 싱글톤 인스턴스
+        public static MapController Instance { get; private set; }
+
         [Header("Map Generation Settings")]
         [Tooltip("시작부터 보스까지의 총 층 수")]
         [SerializeField] private int totalLayers = 6; // 시작~보스 총 6층
@@ -91,10 +82,6 @@ namespace MapSystem
         [Tooltip("각 노드가 다음 층에 연결할 최대 노드 수")]
         [SerializeField] private int maxBranchesPerNode = 2; // 다음 층의 최대 2개와 연결
         
-        [Header("Node Type Distribution")]
-        [Tooltip("노드 타입별 생성 확률 (사용하지 않음 - 코드에서 직접 설정)")]
-        [SerializeField] private List<NodeTypeDistribution> nodeTypeDistributions = new List<NodeTypeDistribution>();
-        
         [Header("Special Placement Rules")]
         [Tooltip("보스 전층에 캠프나 상점 포함 여부")]
         [SerializeField] private bool placeShopOrCampBeforeBoss = true; // 보스 전층은 캠프/상점 포함
@@ -104,6 +91,15 @@ namespace MapSystem
         
         [Tooltip("상점이 배치되는 초반 층 수 (1부터 시작)")]
         [SerializeField] private int shopEarlyLayerLimit = 3; // 상점은 초반 2~3층에 배치
+        
+        // 노드 타입 결정 (비율에 따라)
+        [Header("맵 타입 별 생성 비율")]
+        [SerializeField] private float battleProbability = 0.6f;
+        [SerializeField] private float campProbability = 0.2f;
+        [SerializeField] private float shopProbability = 0.1f;
+
+        [Header("Portal Generation")]
+        [SerializeField] private PortalGenerator portalGenerator;
         
         // 생성된 맵 데이터
         private List<MapNode> mapNodes = new List<MapNode>();
@@ -116,35 +112,60 @@ namespace MapSystem
         
         // 씬 이름
         private const string BATTLE_SCENE = "Battle";
-        private const string EVENT_SCENE = "Event";
         private const string SHOP_SCENE = "Shop";
         private const string CAMP_SCENE = "Camp";
-        private const string ELITE_SCENE = "Battle"; // 엘리트는 일반 전투 씬 사용
         private const string BOSS_SCENE = "Boss";
-        private const string START_SCENE = "Battle"; // 시작은 일반 전투 씬 사용
-        public static MapController Instance { get; private set; }
+        private const string START_SCENE = "Battle";
         
         private void Awake()
         {
-            // Singleton pattern
-            if (Instance != null && Instance != this)
+            // 싱글톤 인스턴스 설정
+            if (Instance == null)
+            {
+                Instance = this;
+                DontDestroyOnLoad(gameObject);
+            }
+            else if (Instance != this)
             {
                 Destroy(gameObject);
                 return;
             }
             
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
+            // 맵 생성
+            GenerateMap();
+            
+            // 시작 노드 선택
+            MapNode startNode = mapNodes.Find(node => node.nodeType == NodeType.Start);
+            if (startNode != null)
+            {
+                SelectNode(startNode.id);
+            }
         }
         
         private void Start()
         {
-            Invoke("DelayedStart", 0.1f);
+            DebugLogMapStructure();
+            Debug.Log("MapController initialized");
+
+            // 씬 로드 이벤트를 통해 노드 갱신 시도
+            SceneManager.sceneLoaded += OnSceneLoaded;
         }
 
-        private void DelayedStart()
+        private void OnDestroy()
         {
-            GenerateMap();
+            // 이벤트 해제
+            SceneManager.sceneLoaded -= OnSceneLoaded;
+        }
+
+        private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+        {
+            if (PlayerPrefs.HasKey("SelectedNodeId"))
+            {
+                int selectedNodeId = PlayerPrefs.GetInt("SelectedNodeId");
+                SelectNode(selectedNodeId);
+                Debug.Log($"{selectedNodeId} 노드로 이동되었습니다.");
+                PlayerPrefs.DeleteKey("SelectedNodeId");
+            }
         }
         
         public void GenerateMap()
@@ -160,15 +181,15 @@ namespace MapSystem
             }
             
             // 1. 맨 아래(시작)에 Start 노드 추가
-            MapNode startNode = CreateNode(NodeType.Start, totalLayers - 1, 0);
+            MapNode startNode = CreateNode(NodeType.Start, 0,  0);
             startNode.position = new Vector2(0, (totalLayers - 1) * -1.5f); // 중앙 하단에 배치
-            layerGrid[totalLayers - 1].Add(startNode);
+            layerGrid[0].Add(startNode);
             mapNodes.Add(startNode);
             
-            // 2. 맨 위(끝)에 Boss 노드 추가
-            MapNode bossNode = CreateNode(NodeType.Boss, 0, 0);
+            // 2. 맨 위(끝)에 Boss 노드 추가    
+            MapNode bossNode = CreateNode(NodeType.Boss, totalLayers - 1, 0);
             bossNode.position = new Vector2(0, 0); // 중앙 상단에 배치
-            layerGrid[0].Add(bossNode);
+            layerGrid[totalLayers - 1].Add(bossNode);
             mapNodes.Add(bossNode);
             
             // 3. 중간 층에 노드 분포
@@ -195,14 +216,14 @@ namespace MapSystem
                     // 상점은 초반 2~3층에만 배치
                     if (nodeType == NodeType.Shop && layer > totalLayers - shopEarlyLayerLimit)
                     {
-                        nodeType = NodeType.Event; // 상점 대신 이벤트로 변경
+                        nodeType = NodeType.Camp;
                     }
                     
                     MapNode node = CreateNode(nodeType, layer, i);
                     
-                    // X 위치 분포 설정
                     float xOffset = (i - (nodesInLayer - 1) / 2.0f) * spacing;
-                    node.position = new Vector2(xOffset, layer * -1.5f);
+                    float yOffset = (totalLayers - 1 -layer) * -1.5f; // Y 위치는 층에 따라 조정
+                    node.position = new Vector2(xOffset, yOffset);
                     
                     layerGrid[layer].Add(node);
                     mapNodes.Add(node);
@@ -225,66 +246,33 @@ namespace MapSystem
             currentNode = startNode;
             startNode.isAccessible = true;
             startNode.isCurrent = true;
-            
-            // 디버그 로그
-            DebugLogMapStructure();
         }
         
-        // 노드 타입 결정 (비율에 따라)
         private NodeType DetermineNodeType(int layer)
         {
-            // 노드 타입 비율: 전투 > 이벤트 > 캠프 > 상점 > 엘리트
+            // 노드 타입 비율: 전투 > 캠프 > 상점
             float rand = UnityEngine.Random.value;
-            
-            if (rand < 0.45f) // 45% - 전투
+
+            if (rand < battleProbability) // 전투
                 return NodeType.Battle;
-            else if (rand < 0.70f) // 25% - 이벤트
-                return NodeType.Event;
-            else if (rand < 0.85f) // 15% - 캠프
+            else if (rand < battleProbability + campProbability) // 캠프
                 return NodeType.Camp;
-            else if (rand < 0.95f) // 10% - 상점
+            else
                 return NodeType.Shop;
-            else // 5% - 엘리트
-                return NodeType.Elite;
         }
         
         // 노드 생성
         private MapNode CreateNode(NodeType type, int layer, int depth)
         {
-            // 난이도와 보상 조정 - 경로에 따른 의미 부여
-            float diffMult = 1f + (depth * 0.1f); // 기본 난이도
-            float rewardMult = 1f + (depth * 0.1f); // 기본 보상
-            
-            // 노드 타입에 따른 난이도/보상 조정
             switch (type)
             {
                 case NodeType.Battle:
-                    // 기본 전투 - 표준 난이도와 보상
-                    break;
-                case NodeType.Event:
-                    // 이벤트 - 변동성 있음 (위험할 수도, 이득일 수도)
-                    diffMult *= UnityEngine.Random.Range(0.8f, 1.2f);
-                    rewardMult *= UnityEngine.Random.Range(0.8f, 1.5f);
                     break;
                 case NodeType.Shop:
-                    // 상점 - 낮은 난이도, 자원 소모
-                    diffMult *= 0.5f;
-                    rewardMult *= 0.5f; // 상점은 보상이 아닌 자원 소모
                     break;
                 case NodeType.Camp:
-                    // 캠프 - 매우 낮은 난이도, 회복 효과
-                    diffMult *= 0.2f;
-                    rewardMult *= 0.3f;
-                    break;
-                case NodeType.Elite:
-                    // 엘리트 - 높은 난이도, 높은 보상
-                    diffMult *= 1.5f;
-                    rewardMult *= 1.8f;
                     break;
                 case NodeType.Boss:
-                    // 보스 - 매우 높은 난이도, 매우 높은 보상
-                    diffMult *= 2.0f;
-                    rewardMult *= 2.5f;
                     break;
             }
             
@@ -296,8 +284,6 @@ namespace MapSystem
                 depth = depth,
                 position = new Vector2(0, 0), // 기본 위치 (나중에 조정)
                 sceneName = GetSceneNameForNodeType(type),
-                difficultyMultiplier = diffMult,
-                rewardMultiplier = rewardMult
             };
             
             return node;
@@ -309,10 +295,8 @@ namespace MapSystem
             switch (type)
             {
                 case NodeType.Battle: return BATTLE_SCENE;
-                case NodeType.Event: return EVENT_SCENE;
                 case NodeType.Shop: return SHOP_SCENE;
                 case NodeType.Camp: return CAMP_SCENE;
-                case NodeType.Elite: return ELITE_SCENE;
                 case NodeType.Boss: return BOSS_SCENE;
                 case NodeType.Start: return START_SCENE;
                 default: return BATTLE_SCENE;
@@ -362,13 +346,13 @@ namespace MapSystem
         // 전투 노드 앞에 캠프 우선 배치
         private void EnsureCampBeforeBattle(List<List<MapNode>> layerGrid)
         {
-            // 전투 노드 앞에 캠프 우선 배치 규칙 적용
+            // 보스 노드 앞에 캠프 우선 배치 규칙 적용
             for (int layer = 0; layer < totalLayers - 1; layer++)
             {
                 foreach (MapNode node in layerGrid[layer])
                 {
                     // 전투 노드인 경우 확인
-                    if (node.nodeType == NodeType.Battle)
+                    if (node.nodeType == NodeType.Boss)
                     {
                         bool hasCampConnection = false;
                         
@@ -387,7 +371,7 @@ namespace MapSystem
                         if (!hasCampConnection && node.parentNodeIds.Count > 0)
                         {
                             // 부모 노드 중 하나를 무작위로 선택하여 캠프로 변경
-                            // 단, 이미 특수 노드(상점, 엘리트, 보스)가 아닌 경우에만
+                            // 단, 이미 특수 노드(상점, 캠프, 보스)가 아닌 경우에만
                             List<MapNode> eligibleParents = new List<MapNode>();
                             
                             foreach (int parentId in node.parentNodeIds)
@@ -395,8 +379,8 @@ namespace MapSystem
                                 MapNode parent = mapNodes.Find(n => n.id == parentId);
                                 if (parent != null && 
                                     parent.nodeType != NodeType.Shop && 
-                                    parent.nodeType != NodeType.Elite && 
-                                    parent.nodeType != NodeType.Boss)
+                                    parent.nodeType != NodeType.Boss &&
+                                    parent.nodeType != NodeType.Camp)
                                 {
                                     eligibleParents.Add(parent);
                                 }
