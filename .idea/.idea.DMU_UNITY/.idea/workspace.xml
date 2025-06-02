@@ -6,17 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="975f744f-261c-47ed-bc26-3abe032e6f67" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DMU_UNITY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DMU_UNITY/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Font/korean.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/korean.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Daniel Mistage/Stylized Fantasy Armory/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Daniel Mistage/Stylized Fantasy Armory/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Daniel Mistage/Stylized Fantasy Armory/Scenes/SampleScene_Profiles/Global Volume_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Daniel Mistage/Stylized Fantasy Armory/Scenes/SampleScene_Profiles/Global Volume_1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Normal UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Normal UI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Character Assets/Starter Assets/Runtime/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Character Assets/Starter Assets/Runtime/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/SyntyStudios/PolygonAdventure/Materials/Characters_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/SyntyStudios/PolygonAdventure/Materials/Characters_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/SyntyStudios/PolygonAdventure/Materials/Characters_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/SyntyStudios/PolygonAdventure/Materials/Characters_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/SyntyStudios/PolygonAdventure/Materials/Characters_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/SyntyStudios/PolygonAdventure/Materials/Characters_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/SyntyStudios/PolygonAdventure/Models/Characters/Character.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/SyntyStudios/PolygonAdventure/Models/Characters/Character.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/SyntyStudios/PolygonAdventure/Scenes/Demo/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/SyntyStudios/PolygonAdventure/Scenes/Demo/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/SyntyStudios/PolygonKnights/Materials/PolyKnights_Character_Mat_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/SyntyStudios/PolygonKnights/Materials/PolyKnights_Character_Mat_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/SyntyStudios/PolygonPrototype/Materials/PolygonPrototype_Texture_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/SyntyStudios/PolygonPrototype/Materials/PolygonPrototype_Texture_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Generic_Ground_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Generic_Ground_02.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Unity/AnimationLibrary_Unity_Standard.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Unity/AnimationLibrary_Unity_Standard.fbx.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Shop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Shop.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Start.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Start.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapon/WeaponDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapon/WeaponDisplay.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapSystem/PortalGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapSystem/PortalGenerator.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,19 +51,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CodeLensConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeLensConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Unity 에디터에 연결.Unity 에디터에 연결">
     <configuration name="유닛 테스트(배치 모드)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Unity.app/Contents/MacOS/Unity" />
@@ -132,6 +136,7 @@
       <workItem from="1747272195629" duration="5776000" />
       <workItem from="1747742628995" duration="1244000" />
       <workItem from="1748408892952" duration="6181000" />
+      <workItem from="1748873616612" duration="2446000" />
     </task>
     <servers />
   </component>
