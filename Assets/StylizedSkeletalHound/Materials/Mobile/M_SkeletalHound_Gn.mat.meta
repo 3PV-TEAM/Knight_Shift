@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e0311218c42a0ed4d88616f3966e6e0c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226592
+  packageName: Stylized Fantasy Skeletal Hound
+  packageVersion: 1.0
+  assetPath: Assets/StylizedSkeletalHound/Materials/Mobile/M_SkeletalHound_Gn.mat
+  uploadId: 510479

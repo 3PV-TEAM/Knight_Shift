@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b0de250d66aa27c4fa1c3ac1757e3dbf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 226592
+  packageName: Stylized Fantasy Skeletal Hound
+  packageVersion: 1.0
+  assetPath: Assets/StylizedSkeletalHound/Meshes/SkeletalHound.controller
+  uploadId: 510479
