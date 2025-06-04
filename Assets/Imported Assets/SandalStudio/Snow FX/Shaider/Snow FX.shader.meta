@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6fc117e00d45e2941936e7479375f01c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240358
+  packageName: FX Snow
+  packageVersion: 1.0
+  assetPath: Assets/SandalStudio/Snow FX/Shaider/Snow FX.shader
+  uploadId: 546441
