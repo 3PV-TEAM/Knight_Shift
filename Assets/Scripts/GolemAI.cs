@@ -50,6 +50,15 @@ public class GolemAI : MonoBehaviour, IDamageable
     [SerializeField] private float rotationSpeed = 8f;
     [SerializeField] private float phase2RotationSpeed = 12f;
 
+    [Header("던지기 설정")]
+    [SerializeField] private GameObject rockPrefab; // 돌 프리팹
+    [SerializeField] private Transform throwOrigin; // 돌이 생성될 위치
+
+    [Header("바닥 치기 이펙트 설정")]
+    [SerializeField] private GameObject groundSmashEffectPrefab; // 바닥 치기 이펙트 프리팹
+    [SerializeField] private float groundSmashEffectRadius = 5f; // 이펙트 범위
+    [SerializeField] private LayerMask damageableLayer; // 데미지를 입힐 레이어
+
     private enum GolemAttackType { Punch1, Punch2, JumpAttack, GroundSmash, ThrowRock }
     private GolemAttackType currentAttackType;
 
@@ -125,40 +134,43 @@ public class GolemAI : MonoBehaviour, IDamageable
                 Debug.LogError("Object is not on NavMesh!");
             }
         }
+        
+        // 디버그 로그 추가
+        Debug.Log($"Golem initialized with HP: {currentHp}/{maxHp}");
+        Debug.Log($"Golem Collider: {mainCollider.name}, isTrigger: {mainCollider.isTrigger}");
     }
 
     void Update()
     {
+        if (isDead || player == null) return;
+        Debug.Log("Golem Speed: " + agent.velocity.magnitude);
+        // 애니메이션 상태 체크 - 수정된 부분
         if (isAttacking)
-    {
-        // Base Layer(0) 대신 Upper Body Layer(1) 확인
-        AnimatorStateInfo currentState = animator.GetCurrentAnimatorStateInfo(1); // 1번 레이어
-        Debug.Log($"Upper Body State: {currentState.shortNameHash}, NormalizedTime: {currentState.normalizedTime}");
-        
-        // Upper Body 레이어의 애니메이션 클립 이름 확인
-        if (animator.GetCurrentAnimatorClipInfo(1).Length > 0)
         {
-            string clipName = animator.GetCurrentAnimatorClipInfo(1)[0].clip.name;
-            Debug.Log($"Current Upper Body Clip: {clipName}");
+            // Base Layer와 Upper Body Layer 모두 체크
+            AnimatorStateInfo baseState = animator.GetCurrentAnimatorStateInfo(0); // Base Layer
+            AnimatorStateInfo upperState = animator.GetCurrentAnimatorStateInfo(1); // Upper Body Layer
+            
+            // 애니메이션이 끝났는데 이벤트가 호출되지 않으면 강제 호출
+            if ((baseState.normalizedTime >= 1.0f || upperState.normalizedTime >= 1.0f) && !animator.IsInTransition(0) && !animator.IsInTransition(1))
+            {
+                Debug.LogWarning("Animation finished but event not called - forcing end");
+                OnAttackAnimationEnd();
+            }
         }
+
+        float distance = Vector3.Distance(transform.position, player.position);
+        UpdateMovement(distance);
+        UpdateCombat(distance);
         
-        // 애니메이션이 끝났는데 이벤트가 호출되지 않으면 강제 호출
-        if (currentState.normalizedTime >= 1.0f)
+        // 디버그: 현재 상태 출력 (너무 많은 로그를 피하기 위해 조건부로)
+        if (Time.frameCount % 60 == 0) // 1초마다 한 번씩만 출력
         {
-            Debug.LogWarning("Upper Body animation finished but event not called - forcing end");
-            OnAttackAnimationEnd();
+            Debug.Log($"Golem Status - HP: {currentHp}/{maxHp}, Distance: {distance:F1}, IsAttacking: {isAttacking}, IsHit: {isHit}");
         }
     }
 
-    float distance = Vector3.Distance(transform.position, player.position);
-    UpdateMovement(distance);
-    UpdateCombat(distance);
-        // 디버그: 현재 상태 출력
-        Debug.Log($"Position: {transform.position}, Player: {player.position}, Distance: {Vector3.Distance(transform.position, player.position)}");
-        
-        
-        
-    }    private void UpdateMovement(float distance)
+    private void UpdateMovement(float distance)
     {
         if (isDead || player == null) {
             Debug.LogWarning("Dead or no player found");
@@ -209,43 +221,51 @@ public class GolemAI : MonoBehaviour, IDamageable
     }
 
     private void UpdateCombat(float distance)
+{
+    if (isHit || isAttacking) return;
+
+    float currentAttackCooldown = isPhase2 ? phase2AttackCooldown : phase1AttackCooldown;
+
+    if (attackTimer > 0)
     {
-        if (isHit || isAttacking) return;
+        attackTimer -= Time.deltaTime;
+        return;
+    }
 
-        float currentAttackCooldown = isPhase2 ? phase2AttackCooldown : phase1AttackCooldown;
-
-        if (attackTimer > 0)
+    if (distance <= attackRange)
+    {
+        // 기본 공격 사거리: 정지 후 기본공격만
+        float randomValue = Random.value;
+        if (isPhase2 && randomValue < comboChance)
         {
-            attackTimer -= Time.deltaTime;
-            return;
+            StartCoroutine(ExecuteComboAttack());
         }
-
-        // 랜덤 공격 선택
-        if (distance <= attackRange)
+        else if (randomValue < 0.5f)
         {
-            float randomValue = Random.value;
-            if (isPhase2 && randomValue < comboChance)
-            {
-                StartCoroutine(ExecuteComboAttack());
-            }
-            else if (randomValue < 0.5f)
-            {
-                ExecuteBasicAttack(GolemAttackType.Punch1);
-            }
-            else
-            {
-                ExecuteBasicAttack(GolemAttackType.Punch2);
-            }
+            ExecuteBasicAttack(GolemAttackType.Punch1);
         }
-        else if (distance <= jumpAttackRange && (isPhase2 || Random.value < 0.3f))
+        else
         {
-            ExecuteJumpAttack();
-        }
-        else if (distance <= throwRange)
-        {
-            ExecuteThrowAttack();
+            ExecuteBasicAttack(GolemAttackType.Punch2);
         }
     }
+    else if (distance <= jumpAttackRange)
+    {
+        // 기본공격 사거리보다 멀고, 점프 공격 사거리 이내: 점프 공격(달려오면서 공격)
+        ExecuteJumpAttack();
+    }
+    else if (distance <= throwRange)
+    {
+        // 던지기 공격
+        ExecuteThrowAttack();
+    }
+    else
+    {
+        // throwRange 밖: 달려가면서 펀치(혹은 돌진 공격)
+        ExecuteMovingAttack(GolemAttackType.Punch1);
+    }
+}
+
 
     private IEnumerator ExecuteComboAttack()
     {
@@ -305,17 +325,6 @@ public class GolemAI : MonoBehaviour, IDamageable
         Debug.Log($"Started basic attack: {attackType}");
     }
 
-    private void ExecuteJumpAttack()
-    {
-        isAttacking = true;
-        agent.isStopped = true;
-
-        currentAttackType = GolemAttackType.JumpAttack;
-        StartCoroutine(PrepareAttack(GolemAttackType.JumpAttack, anticipationTime * 1.2f));
-
-        attackTimer = isPhase2 ? phase2AttackCooldown : phase1AttackCooldown;
-    }
-
     private void ExecuteThrowAttack()
     {
         isAttacking = true;
@@ -325,34 +334,136 @@ public class GolemAI : MonoBehaviour, IDamageable
         StartCoroutine(PrepareAttack(GolemAttackType.ThrowRock, anticipationTime));
 
         attackTimer = isPhase2 ? phase2AttackCooldown : phase1AttackCooldown;
+
+        // 돌 생성 및 던지기 로직 추가
+        if (rockPrefab != null && throwOrigin != null)
+        {
+            GameObject rock = Instantiate(rockPrefab, throwOrigin.position, throwOrigin.rotation);
+            Rigidbody rockRigidbody = rock.GetComponent<Rigidbody>();
+            if (rockRigidbody != null)
+            {
+                Vector3 throwDirection = (player.position - throwOrigin.position).normalized;
+                rockRigidbody.AddForce(throwDirection * 15f, ForceMode.Impulse); // 던지는 힘 설정
+            }
+            Debug.Log("Rock thrown!");
+        }
+        else
+        {
+            Debug.LogError("Rock prefab or throw origin is not assigned!");
+        }
     }
 
+    private void ExecuteGroundSmash()
+    {
+        isAttacking = true;
+        agent.isStopped = true;
+
+        currentAttackType = GolemAttackType.GroundSmash;
+        StartCoroutine(PrepareAttack(GolemAttackType.GroundSmash, anticipationTime * 1.5f));
+
+        attackTimer = isPhase2 ? phase2AttackCooldown : phase1AttackCooldown;
+
+        // 바닥 치기 이펙트 생성
+        if (groundSmashEffectPrefab != null)
+        {
+            GameObject effect = Instantiate(groundSmashEffectPrefab, transform.position, Quaternion.identity);
+            Destroy(effect, 2f); // 이펙트는 2초 후에 제거
+
+            // 이펙트 범위 내의 대상에게 데미지 입히기
+            Collider[] hitColliders = Physics.OverlapSphere(transform.position, groundSmashEffectRadius, damageableLayer);
+            foreach (Collider hitCollider in hitColliders)
+            {
+                IDamageable damageable = hitCollider.GetComponent<IDamageable>();
+                if (damageable != null)
+                {
+                    damageable.TakeDamage(groundSmashDamage);
+                    Debug.Log($"Ground smash hit: {hitCollider.name}, Damage: {groundSmashDamage}");
+                }
+            }
+        }
+        else
+        {
+            Debug.LogError("Ground smash effect prefab is not assigned!");
+        }
+    }
+    private void ExecuteJumpAttack()
+{
+    isAttacking = true;
+    agent.isStopped = false; // 이동 유지(달려오면서 공격)
+    animator.SetTrigger("JumpAttack");
+    currentAttackType = GolemAttackType.JumpAttack;
+    attackTimer = isPhase2 ? phase2AttackCooldown : phase1AttackCooldown;
+    Debug.Log("Started jump attack!");
+}
+
+
+    // TakeDamage 메서드 개선 - 주요 수정 부분
     public void TakeDamage(float damageAmount)
     {
-        if (isDead) return;
+        Debug.Log($"=== TakeDamage called on {gameObject.name} ===");
+        Debug.Log($"Damage amount: {damageAmount}");
+        Debug.Log($"Current HP before damage: {currentHp}");
+        Debug.Log($"Is dead: {isDead}");
 
+        if (isDead)
+        {
+            Debug.Log("Golem is already dead, ignoring damage");
+            return;
+        }
+
+        // 데미지 적용
         currentHp -= damageAmount;
-        animator.SetTrigger("Hit");
+        currentHp = Mathf.Max(0, currentHp); // 음수 방지
+
+        Debug.Log($"HP after damage: {currentHp}/{maxHp}");
+
+        // Hit 애니메이션 트리거
+        if (animator != null)
+        {
+            animator.SetTrigger("Hit");
+            Debug.Log("Hit animation triggered");
+        }
+
+        // Hit 상태 설정
         isHit = true;
+
+        // 공격 중단
+        if (isAttacking)
+        {
+            StopAllCoroutines();
+            isAttacking = false;
+            isPreparingAttack = false;
+            DisableAttackCollider();
+        }
+
+        Debug.Log($"Golem took damage: {damageAmount}, Current HP: {currentHp}/{maxHp}");
 
         // 2페이즈 진입 체크
         if (!isPhase2 && (currentHp / maxHp) <= phase2Threshold)
         {
+            Debug.Log("Entering Phase 2!");
             EnterPhase2();
         }
 
+        // 사망 체크
         if (currentHp <= 0)
         {
+            Debug.Log("Golem HP reached 0, calling Die()");
             Die();
         }
+
+        Debug.Log("=== TakeDamage completed ===");
     }
 
     private void EnterPhase2()
     {
         isPhase2 = true;
         animator.SetBool("Phase2", true);
+        Debug.Log("Golem entered Phase 2!");
         // 2페이즈 진입 이펙트나 사운드 등 추가
-    }    // 애니메이션 이벤트에서 호출될 메서드들
+    }
+
+    // 애니메이션 이벤트에서 호출될 메서드들
     public void EnableAttackCollider()
     {
         Debug.Log($"Enabling attack collider for {currentAttackType}");
@@ -405,7 +516,7 @@ public class GolemAI : MonoBehaviour, IDamageable
         Debug.Log($"Attack animation ended, currentAttackType: {currentAttackType}");
         
         // 공격 끝난 후 이동 재개
-        if (agent != null && agent.enabled)
+        if (agent != null && agent.enabled && !isHit)
         {
             agent.isStopped = false;
             Debug.Log("Movement resumed");
@@ -415,14 +526,143 @@ public class GolemAI : MonoBehaviour, IDamageable
     public void OnHitAnimationEnd()
     {
         isHit = false;
+        Debug.Log("Hit animation ended, resuming normal behavior");
+        
+        // Hit 애니메이션이 끝나면 이동 재개
+        if (agent != null && agent.enabled && !isAttacking)
+        {
+            agent.isStopped = false;
+        }
     }
 
     private void Die()
     {
+        Debug.Log("Golem is dying!");
         isDead = true;
-        animator.SetTrigger("Death");
-        mainCollider.enabled = false;
-        agent.isStopped = true;
+        
+        if (animator != null)
+        {
+            animator.SetTrigger("Death");
+        }
+        
+        if (mainCollider != null)
+        {
+            mainCollider.enabled = false;
+        }
+        
+        if (agent != null)
+        {
+            agent.isStopped = true;
+            agent.enabled = false;
+        }
+        
+        // 모든 코루틴 중단
+        StopAllCoroutines();
+        
+        // 공격 콜라이더 비활성화
+        DisableAttackCollider();
+        
+        // 스크립트 비활성화는 Death 애니메이션이 끝난 후에 하도록 수정
+        // this.enabled = false; // 이 라인을 주석 처리
+        
+        Debug.Log("Golem death sequence completed");
+    }
+
+    // Death 애니메이션이 끝났을 때 호출될 메서드 (애니메이션 이벤트에서 호출)
+    public void OnDeathAnimationEnd()
+    {
         this.enabled = false;
+        Debug.Log("Golem script disabled after death animation");
+    }
+
+    public void SpawnRockDuringAnimation()
+    {
+        // 돌 생성 및 골렘 손 위치로 이동
+        if (rockPrefab != null && throwOrigin != null)
+        {
+            GameObject rock = Instantiate(rockPrefab, throwOrigin.position, throwOrigin.rotation);
+            rock.transform.SetParent(throwOrigin); // 골렘 손 위치에 고정
+            rock.transform.localPosition = Vector3.zero; // 손 위치로 이동
+            rock.transform.localRotation = Quaternion.identity;
+
+            Debug.Log("Rock spawned and attached to Golem's hand!");
+        }
+        else
+        {
+            Debug.LogError("Rock prefab or throw origin is not assigned!");
+        }
+    }
+
+    public void ThrowRock()
+    {
+        // 돌 던지기 로직
+        if (throwOrigin.childCount > 0)
+        {
+            Transform rock = throwOrigin.GetChild(0); // 손 위치에 있는 돌 가져오기
+            rock.SetParent(null); // 손에서 분리
+            Rigidbody rockRigidbody = rock.GetComponent<Rigidbody>();
+            if (rockRigidbody != null)
+            {
+                // 물리 활성화 및 던지는 방향 설정
+                rockRigidbody.isKinematic = false; // 물리 활성화
+                rockRigidbody.useGravity = true; // 중력 활성화
+                Vector3 throwDirection = (player.position - throwOrigin.position).normalized;
+                rockRigidbody.AddForce(throwDirection * 15f, ForceMode.Impulse); // 던지는 힘 설정
+
+                Debug.Log("Rock thrown!");
+            }
+            else
+            {
+                Debug.LogError("Rock does not have a Rigidbody component!");
+            }
+        }
+        else
+        {
+            Debug.LogError("No rock found in throwOrigin!");
+        }
+    }
+
+    private void ExecuteMovingAttack(GolemAttackType attackType)
+    {
+        isAttacking = true;
+
+        // 상체 공격 애니메이션 트리거 설정
+        animator.SetTrigger(attackType.ToString());
+        currentAttackType = attackType;
+
+        // 하체는 계속 이동하도록 설정
+        agent.isStopped = false;
+
+        // 공격 쿨다운 설정
+        attackTimer = isPhase2 ? phase2AttackCooldown : phase1AttackCooldown;
+
+        Debug.Log($"Started moving attack: {attackType}");
+    }
+
+    // 디버그용 메서드 - Inspector에서 체력을 직접 확인할 수 있도록
+    [System.Serializable]
+    public class DebugInfo
+    {
+        [ReadOnly] public float currentHpDebug;
+        [ReadOnly] public bool isDeadDebug;
+        [ReadOnly] public bool isHitDebug;
+        [ReadOnly] public bool isAttackingDebug;
+        [ReadOnly] public bool isPhase2Debug;
+    }
+    
+    [Header("디버그 정보")]
+    [SerializeField] private DebugInfo debugInfo = new DebugInfo();
+
+    private void LateUpdate()
+    {
+        // 디버그 정보 업데이트
+        debugInfo.currentHpDebug = currentHp;
+        debugInfo.isDeadDebug = isDead;
+        debugInfo.isHitDebug = isHit;
+        debugInfo.isAttackingDebug = isAttacking;
+        debugInfo.isPhase2Debug = isPhase2;
     }
 }
+
+// ReadOnly 속성 클래스 (Inspector에서 읽기 전용으로 표시)
+public class ReadOnlyAttribute : PropertyAttribute { }
