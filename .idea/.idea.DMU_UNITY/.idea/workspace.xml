@@ -7,98 +7,672 @@
     <list default="true" id="975f744f-261c-47ed-bc26-3abe032e6f67" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DMU_UNITY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DMU_UNITY/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Font/korean.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/korean.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Character Assets/Starter Assets/Runtime/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Character Assets/Starter Assets/Runtime/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM).meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Demo Scene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Demo Scene/Demo.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Demo Scene/Demo.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Materials/OrcBase_Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Materials/OrcBase_Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Materials/Sword_Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Materials/Sword_Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Models/Orc_Base.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Models/Orc_Base.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Models/Sword_Base.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Models/Sword_Base.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Prefabs/Orc Warrior.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Prefabs/Orc Warrior.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Prefabs/Sword.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Prefabs/Sword.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Textures/Orc_Diffuse.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Textures/Orc_Diffuse.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Textures/Orc_Emissive.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Textures/Orc_Emissive.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Textures/Orc_Glossiness.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Textures/Orc_Glossiness.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Textures/Orc_Normal.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Textures/Orc_Normal.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Textures/Orc_Specular.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Textures/Orc_Specular.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Textures/Sword_Diffuse.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Textures/Sword_Diffuse.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Textures/Sword_Glossines.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Textures/Sword_Glossines.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Textures/Sword_Normal.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Textures/Sword_Normal.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Textures/Sword_Specular.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/Textures/Sword_Specular.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Mutant Dying.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Mutant Dying.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Block Idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Block Idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Attack 360 High.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Attack 360 High.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Attack Horizontal.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Attack Horizontal.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Combo Attack Ver. 1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Combo Attack Ver. 1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Combo Attack Ver. 2.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Combo Attack Ver. 2.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Combo Attack Ver. 3.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Combo Attack Ver. 3.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Run Jump Attack.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Run Jump Attack.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing React Large From Right.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing React Large From Right.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing React Large Gut.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing React Large Gut.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Run Forward.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Run Forward.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Taunt Chest Thump.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Taunt Chest Thump.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Walk Forward.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Walk Forward.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Walk Right.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Walk Right.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Orc/Orc Warrior.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Camera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Camera.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Monster/Skeleton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Monster/Skeleton.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Node.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Node.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Battle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Battle.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Boss.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Boss.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Character Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/PlayerUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Character Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/PlayerUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Demo/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Demo/Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Demo/Ground.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Demo/Ground.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Demo/Ground2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Demo/Ground2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword10_Bone.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword10_Bone.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword10_Brown.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword10_Brown.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword10_Dark.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword10_Dark.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword11_Blood.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword11_Blood.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword11_Bone.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword11_Bone.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword11_Dark.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword11_Dark.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword12_Green.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword12_Green.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword12_Purple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword12_Purple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword12_Red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword12_Red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword13_Blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword13_Blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword13_Cyan.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword13_Cyan.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword13_Green.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword13_Green.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword13_Orange.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword13_Orange.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword13_Red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword13_Red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword14_Blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword14_Blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword14_Red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword14_Red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword14_Yellow.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword14_Yellow.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword15_Earth.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword15_Earth.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword15_Frost.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword15_Frost.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword15_Iron.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword15_Iron.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword15_Lava.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword15_Lava.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword1_Bronze.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword1_Bronze.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword1_Gold.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword1_Gold.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword1_Silver.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword1_Silver.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword2_Green.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword2_Green.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword2_Red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword2_Red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword2_Yellow.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword2_Yellow.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword3_Blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword3_Blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword3_Green.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword3_Green.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword3_Red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword3_Red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword4_Blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword4_Blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword4_Red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword4_Red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword4_Yellow.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword4_Yellow.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword5_Blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword5_Blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword5_Gold.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword5_Gold.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword5_Red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword5_Red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword5_Yellow.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword5_Yellow.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword6_Blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword6_Blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword6_Red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword6_Red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword6_Yellow.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword6_Yellow.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword7_Blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword7_Blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword7_Green.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword7_Green.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword7_Red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword7_Red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword8_Corrupted.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword8_Corrupted.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword8_Gold.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword8_Gold.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword8_White.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword8_White.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword9_Blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword9_Blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword9_Green.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword9_Green.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword9_Purple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword9_Purple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword9_Red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword9_Red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword9_White.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Prefabs/Sword9_White.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Sword1_FBX.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Sword1_FBX.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Sword1_Material_Bronze.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Sword1_Material_Bronze.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Sword1_Material_Gold.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Sword1_Material_Gold.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Sword1_Material_Silver.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Sword1_Material_Silver.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Textures/Sword1_Albedo_Bronze.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Textures/Sword1_Albedo_Bronze.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Textures/Sword1_Albedo_Gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Textures/Sword1_Albedo_Gold.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Textures/Sword1_Albedo_Silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Textures/Sword1_Albedo_Silver.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Textures/Sword1_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Textures/Sword1_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Textures/Sword1_Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Textures/Sword1_Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Textures/Sword1_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword1/Textures/Sword1_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Sword10_FBX.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Sword10_FBX.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Sword10_Material_Bone.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Sword10_Material_Bone.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Sword10_Material_Brown.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Sword10_Material_Brown.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Sword10_Material_Dark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Sword10_Material_Dark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Textures/Sword10_Albedo_Bone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Textures/Sword10_Albedo_Bone.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Textures/Sword10_Albedo_Brown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Textures/Sword10_Albedo_Brown.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Textures/Sword10_Albedo_Dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Textures/Sword10_Albedo_Dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Textures/Sword10_Metallic_Bone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Textures/Sword10_Metallic_Bone.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Textures/Sword10_Metallic_Brown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Textures/Sword10_Metallic_Brown.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Textures/Sword10_Metallic_Dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Textures/Sword10_Metallic_Dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Textures/Sword10_Normal_Bone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Textures/Sword10_Normal_Bone.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Textures/Sword10_Normal_Brown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Textures/Sword10_Normal_Brown.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Textures/Sword10_Normal_Dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword10/Textures/Sword10_Normal_Dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Sword11_FBX.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Sword11_FBX.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Sword11_Material_Blood.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Sword11_Material_Blood.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Sword11_Material_Bone.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Sword11_Material_Bone.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Sword11_Material_Dark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Sword11_Material_Dark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures/Sword11_Albedo_Blood.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures/Sword11_Albedo_Blood.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures/Sword11_Albedo_Bone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures/Sword11_Albedo_Bone.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures/Sword11_Albedo_Dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures/Sword11_Albedo_Dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures/Sword11_Emission_Blood.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures/Sword11_Emission_Blood.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures/Sword11_Metallic_Blood.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures/Sword11_Metallic_Blood.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures/Sword11_Metallic_Bone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures/Sword11_Metallic_Bone.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures/Sword11_Metallic_Dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures/Sword11_Metallic_Dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures/Sword11_Normal_Blood.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures/Sword11_Normal_Blood.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures/Sword11_Normal_Bone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures/Sword11_Normal_Bone.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures/Sword11_Normal_Dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword11/Textures/Sword11_Normal_Dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Sword12_FBX.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Sword12_FBX.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Sword12_Material_Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Sword12_Material_Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Sword12_Material_Purple.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Sword12_Material_Purple.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Sword12_Material_Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Sword12_Material_Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Textures/Sword12_Albedo_Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Textures/Sword12_Albedo_Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Textures/Sword12_Albedo_Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Textures/Sword12_Albedo_Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Textures/Sword12_Albedo_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Textures/Sword12_Albedo_Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Textures/Sword12_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Textures/Sword12_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Textures/Sword12_Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Textures/Sword12_Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Textures/Sword12_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword12/Textures/Sword12_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Sword13_FBX.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Sword13_FBX.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Sword13_Material_Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Sword13_Material_Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Sword13_Material_Cyan.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Sword13_Material_Cyan.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Sword13_Material_Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Sword13_Material_Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Sword13_Material_Orange.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Sword13_Material_Orange.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Sword13_Material_Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Sword13_Material_Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Textures/Sword13_Albedo_Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Textures/Sword13_Albedo_Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Textures/Sword13_Albedo_Cyan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Textures/Sword13_Albedo_Cyan.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Textures/Sword13_Albedo_Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Textures/Sword13_Albedo_Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Textures/Sword13_Albedo_Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Textures/Sword13_Albedo_Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Textures/Sword13_Albedo_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Textures/Sword13_Albedo_Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Textures/Sword13_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Textures/Sword13_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Textures/Sword13_Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Textures/Sword13_Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Textures/Sword13_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword13/Textures/Sword13_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Sword14_FBX.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Sword14_FBX.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Sword14_Material_Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Sword14_Material_Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Sword14_Material_Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Sword14_Material_Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Sword14_Material_Yellow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Sword14_Material_Yellow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Textures/Sword14_Albedo_Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Textures/Sword14_Albedo_Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Textures/Sword14_Albedo_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Textures/Sword14_Albedo_Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Textures/Sword14_Albedo_Yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Textures/Sword14_Albedo_Yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Textures/Sword14_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Textures/Sword14_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Textures/Sword14_Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Textures/Sword14_Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Textures/Sword14_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword14/Textures/Sword14_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Sword15_FBX.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Sword15_FBX.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Sword15_Material_Earth.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Sword15_Material_Earth.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Sword15_Material_Frost.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Sword15_Material_Frost.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Sword15_Material_Iron.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Sword15_Material_Iron.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Sword15_Material_Lava.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Sword15_Material_Lava.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Albedo_Earth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Albedo_Earth.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Albedo_Frost.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Albedo_Frost.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Albedo_Iron.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Albedo_Iron.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Albedo_Lava.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Albedo_Lava.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Emission_Earth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Emission_Earth.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Emission_Frost.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Emission_Frost.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Emission_Iron.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Emission_Iron.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Emission_Lava.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Emission_Lava.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Metallic_Earth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Metallic_Earth.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Metallic_Frost.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Metallic_Frost.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Metallic_Iron.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Metallic_Iron.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Metallic_Lava.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Metallic_Lava.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Normal_Earth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Normal_Earth.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Normal_Frost.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Normal_Frost.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Normal_Iron.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Normal_Iron.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Normal_Lava.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword15/Textures/Sword15_Normal_Lava.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Sword2_FBX.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Sword2_FBX.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Sword2_Material_Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Sword2_Material_Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Sword2_Material_Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Sword2_Material_Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Sword2_Material_Yellow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Sword2_Material_Yellow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Textures/Sword2_Albedo_Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Textures/Sword2_Albedo_Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Textures/Sword2_Albedo_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Textures/Sword2_Albedo_Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Textures/Sword2_Albedo_Yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Textures/Sword2_Albedo_Yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Textures/Sword2_Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Textures/Sword2_Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Textures/Sword2_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword2/Textures/Sword2_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Sword3_FBX.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Sword3_FBX.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Sword3_Material_Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Sword3_Material_Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Sword3_Material_Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Sword3_Material_Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Sword3_Material_Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Sword3_Material_Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Textures/Sword3_Albedo_Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Textures/Sword3_Albedo_Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Textures/Sword3_Albedo_Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Textures/Sword3_Albedo_Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Textures/Sword3_Albedo_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Textures/Sword3_Albedo_Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Textures/Sword3_Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Textures/Sword3_Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Textures/Sword3_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword3/Textures/Sword3_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword4/Sword4_FBX.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword4/Sword4_FBX.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword4/Sword4_Material_Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword4/Sword4_Material_Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword4/Sword4_Material_Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword4/Sword4_Material_Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword4/Sword4_Material_Yellow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword4/Sword4_Material_Yellow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword4/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword4/Textures/Sword4_Albedo_Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword4/Textures/Sword4_Albedo_Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword4/Textures/Sword4_Albedo_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword4/Textures/Sword4_Albedo_Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword4/Textures/Sword4_Albedo_Yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword4/Textures/Sword4_Albedo_Yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword4/Textures/Sword4_Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword4/Textures/Sword4_Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword4/Textures/Sword4_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword4/Textures/Sword4_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Sword5_FBX.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Sword5_FBX.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Sword5_Material_Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Sword5_Material_Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Sword5_Material_Gold.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Sword5_Material_Gold.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Sword5_Material_Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Sword5_Material_Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Sword5_Material_Yellow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Sword5_Material_Yellow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Textures/Sword5_Albedo_Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Textures/Sword5_Albedo_Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Textures/Sword5_Albedo_Gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Textures/Sword5_Albedo_Gold.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Textures/Sword5_Albedo_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Textures/Sword5_Albedo_Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Textures/Sword5_Albedo_Yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Textures/Sword5_Albedo_Yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Textures/Sword5_Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Textures/Sword5_Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Textures/Sword5_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword5/Textures/Sword5_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Sword6_FBX.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Sword6_FBX.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Sword6_Material_Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Sword6_Material_Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Sword6_Material_Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Sword6_Material_Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Sword6_Material_Yellow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Sword6_Material_Yellow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Textures/Sword6_Albedo_Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Textures/Sword6_Albedo_Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Textures/Sword6_Albedo_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Textures/Sword6_Albedo_Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Textures/Sword6_Albedo_Yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Textures/Sword6_Albedo_Yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Textures/Sword6_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Textures/Sword6_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Textures/Sword6_Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Textures/Sword6_Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Textures/Sword6_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword6/Textures/Sword6_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Sword7_FBX.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Sword7_FBX.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Sword7_Material_Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Sword7_Material_Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Sword7_Material_Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Sword7_Material_Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Sword7_Material_Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Sword7_Material_Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Textures/Sword7_Albedo_Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Textures/Sword7_Albedo_Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Textures/Sword7_Albedo_Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Textures/Sword7_Albedo_Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Textures/Sword7_Albedo_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Textures/Sword7_Albedo_Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Textures/Sword7_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Textures/Sword7_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Textures/Sword7_Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Textures/Sword7_Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Textures/Sword7_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword7/Textures/Sword7_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Sword8_FBX.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Sword8_FBX.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Sword8_Material_Corrupted.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Sword8_Material_Corrupted.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Sword8_Material_Gold.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Sword8_Material_Gold.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Sword8_Material_White.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Sword8_Material_White.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures/Sword8_Albedo_Corrupted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures/Sword8_Albedo_Corrupted.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures/Sword8_Albedo_Gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures/Sword8_Albedo_Gold.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures/Sword8_Albedo_White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures/Sword8_Albedo_White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures/Sword8_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures/Sword8_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures/Sword8_Metallic_Corrupted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures/Sword8_Metallic_Corrupted.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures/Sword8_Metallic_Gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures/Sword8_Metallic_Gold.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures/Sword8_Metallic_White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures/Sword8_Metallic_White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures/Sword8_Normal_Corrupted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures/Sword8_Normal_Corrupted.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures/Sword8_Normal_Gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures/Sword8_Normal_Gold.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures/Sword8_Normal_White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword8/Textures/Sword8_Normal_White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Sword9_FBX.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Sword9_FBX.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Sword9_Material_Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Sword9_Material_Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Sword9_Material_Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Sword9_Material_Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Sword9_Material_Purple.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Sword9_Material_Purple.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Sword9_Material_Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Sword9_Material_Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Sword9_Material_White.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Sword9_Material_White.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Textures/Sword9_Albedo_Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Textures/Sword9_Albedo_Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Textures/Sword9_Albedo_Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Textures/Sword9_Albedo_Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Textures/Sword9_Albedo_Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Textures/Sword9_Albedo_Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Textures/Sword9_Albedo_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Textures/Sword9_Albedo_Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Textures/Sword9_Albedo_White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Textures/Sword9_Albedo_White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Textures/Sword9_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Textures/Sword9_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Textures/Sword9_Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Textures/Sword9_Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Textures/Sword9_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/LowPoly Weapon/Art/Weapons/LowPoly/FreeSwords/Sword9/Textures/Sword9_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation/Warrok W Kurniawan@Mutant Dying.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation/Warrok W Kurniawan@Mutant Dying.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation/Warrok W Kurniawan@Mutant Flexing Muscles.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation/Warrok W Kurniawan@Mutant Flexing Muscles.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation/Warrok W Kurniawan@Mutant Idle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation/Warrok W Kurniawan@Mutant Idle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation/Warrok W Kurniawan@Mutant Jump Attack.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation/Warrok W Kurniawan@Mutant Jump Attack.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation/Warrok W Kurniawan@Mutant Punch.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation/Warrok W Kurniawan@Mutant Punch.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation/Warrok W Kurniawan@Mutant Roaring.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation/Warrok W Kurniawan@Mutant Roaring.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation/Warrok W Kurniawan@Mutant Swiping.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation/Warrok W Kurniawan@Mutant Swiping.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation/Warrok W Kurniawan@Mutant Walking.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation/Warrok W Kurniawan@Mutant Walking.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation/Warrok.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation/Warrok.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation/character 1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Animation/character 1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Model.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Model/character 1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Model/character 1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Textures/bear_diffuse 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Textures/bear_diffuse 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Textures/bear_normal 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Textures/bear_normal 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Textures/bear_specular 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/Textures/bear_specular 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/character.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Warrok/character.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Free Modular Low Poly Dungeon.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Free Modular Low Poly Dungeon/Instagram.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Free Modular Low Poly Dungeon/Instagram.url.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Free Modular Low Poly Dungeon/License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Free Modular Low Poly Dungeon/License.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Free Modular Low Poly Dungeon/My other assets.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Free Modular Low Poly Dungeon/My other assets.url.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Free Modular Low Poly Dungeon/Patreon.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Free Modular Low Poly Dungeon/Patreon.url.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Free Modular Low Poly Dungeon/Twitter.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Free Modular Low Poly Dungeon/Twitter.url.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Free Modular Low Poly Dungeon/low poly dungeon assets.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Free Modular Low Poly Dungeon/low poly dungeon assets.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Free Modular Low Poly Dungeon/low poly dungeon sample.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Free Modular Low Poly Dungeon/low poly dungeon sample.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM).meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Demo Scene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Demo Scene/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Demo Scene/Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Materials/OrcBase_Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Materials/OrcBase_Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Materials/Sword_Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Materials/Sword_Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Models/Orc_Base.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Models/Orc_Base.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Models/Sword_Base.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Models/Sword_Base.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Prefabs/Orc Warrior.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Prefabs/Orc Warrior.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Prefabs/Sword.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Prefabs/Sword.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Textures/Orc_Diffuse.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Textures/Orc_Diffuse.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Textures/Orc_Emissive.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Textures/Orc_Emissive.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Textures/Orc_Glossiness.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Textures/Orc_Glossiness.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Textures/Orc_Normal.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Textures/Orc_Normal.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Textures/Orc_Specular.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Textures/Orc_Specular.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Textures/Sword_Diffuse.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Textures/Sword_Diffuse.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Textures/Sword_Glossines.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Textures/Sword_Glossines.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Textures/Sword_Normal.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Textures/Sword_Normal.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Textures/Sword_Specular.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/Textures/Sword_Specular.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Mutant Dying.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Mutant Dying.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Block Idle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Block Idle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Idle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Idle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Attack 360 High.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Attack 360 High.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Attack Horizontal.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Attack Horizontal.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Combo Attack Ver. 1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Combo Attack Ver. 1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Combo Attack Ver. 2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Combo Attack Ver. 2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Combo Attack Ver. 3.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Combo Attack Ver. 3.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Run Jump Attack.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Melee Run Jump Attack.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing React Large From Right.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing React Large From Right.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing React Large Gut.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing React Large Gut.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Run Forward.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Run Forward.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Taunt Chest Thump.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Taunt Chest Thump.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Walk Forward.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Walk Forward.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Walk Right.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior (AleM)/animataion/Orc_Base@Standing Walk Right.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Orc/Orc Warrior.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation/Warrok W Kurniawan@Mutant Dying.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation/Warrok W Kurniawan@Mutant Dying.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation/Warrok W Kurniawan@Mutant Flexing Muscles.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation/Warrok W Kurniawan@Mutant Flexing Muscles.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation/Warrok W Kurniawan@Mutant Idle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation/Warrok W Kurniawan@Mutant Idle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation/Warrok W Kurniawan@Mutant Jump Attack.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation/Warrok W Kurniawan@Mutant Jump Attack.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation/Warrok W Kurniawan@Mutant Punch.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation/Warrok W Kurniawan@Mutant Punch.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation/Warrok W Kurniawan@Mutant Roaring.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation/Warrok W Kurniawan@Mutant Roaring.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation/Warrok W Kurniawan@Mutant Swiping.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation/Warrok W Kurniawan@Mutant Swiping.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation/Warrok W Kurniawan@Mutant Walking.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation/Warrok W Kurniawan@Mutant Walking.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation/Warrok.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation/Warrok.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation/character 1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Animation/character 1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Model.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Model/character 1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Model/character 1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Textures/bear_diffuse 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Textures/bear_diffuse 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Textures/bear_normal 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Textures/bear_normal 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Textures/bear_specular 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/Textures/bear_specular 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/character.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monster/Warrok/character.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Start.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Start.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyStateBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyStateBehavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Skeleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Skeleton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PersistentObjectManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PersistentObjectManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapon/WeaponDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapon/WeaponDisplay.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapon/WeaponManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapon/WeaponManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +686,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AttackStateBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BattleSceneManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IDamagable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoginUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerDataManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerFollowCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Portal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PreviewCameraManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -219,6 +795,7 @@
       <workItem from="1748408892952" duration="6181000" />
       <workItem from="1748873616612" duration="2536000" />
       <workItem from="1749014126847" duration="9611000" />
+      <workItem from="1749087455986" duration="4399000" />
     </task>
     <servers />
   </component>

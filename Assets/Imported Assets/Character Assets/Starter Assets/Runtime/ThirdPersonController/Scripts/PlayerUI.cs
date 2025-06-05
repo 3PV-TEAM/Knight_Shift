@@ -10,13 +10,17 @@ public class PlayerUI : MonoBehaviour
     public Image spBar;
     public Image imgSkillCooldown;
     public TextMeshProUGUI skillCooldownText;
+    public TextMeshProUGUI goldText;
+    
     SkillController skillController;
+    PlayerDataManager playerDataManager;
 
     public PlayerStatus playerStatus;
 
     private void Start()
     {
         skillController = FindFirstObjectByType<SkillController>();
+        playerDataManager = FindFirstObjectByType<PlayerDataManager>();
         imgSkillCooldown.fillAmount = 0f;
     }
 
@@ -47,6 +51,14 @@ public class PlayerUI : MonoBehaviour
             {
                 spBar.fillAmount = playerStatus.currentSp / playerStatus.maxSp;
             }
+        }
+    }
+    
+    public void UpdateGold()
+    {
+        if (goldText != null)
+        {
+            goldText.text =  playerDataManager.Gold + " G";
         }
     }
     

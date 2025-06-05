@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "265648052471",
+    "project_id": "knightshift-dmu",
+    "storage_bucket": "knightshift-dmu.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265648052471:android:a1f435260cdd12dcd99bf2",
+        "android_client_info": {
+          "package_name": "com.dmu.knightshift"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChjUjORUr6Cl7Vc042zp70iXh4Yi6q0J0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
