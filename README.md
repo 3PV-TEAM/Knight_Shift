@@ -21,6 +21,6 @@
 
 ## 🛠️ 사용 기술
 <div>
-  <img src="https://img.shields.io/badge/firebase-#DD2C00?style=for-the-badge&logo=firebase&logoColor=white"> 
+  ![js]([https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white))
 
 </div>
