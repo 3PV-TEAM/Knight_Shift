@@ -1,8 +1,8 @@
 # 로그라이크 액션 RPG - [Knight Shift]
 <img src="/logo.png" alt="Knight Shift 로고" width="400"/>
 
-> 🎮 3인칭 시점의 로그라이크 액션 RPG!  
-> 다크소울의 긴장감과 하데스의 전략성을 결합한, 던전 클리어형 스테이지 기반 판타지 게임.
+> 🎮 3인칭 시점의 로그라이크 액션 RPG
+> 스테이지 기반 판타지 게임
 
 ## 📌 개요
 
@@ -20,9 +20,7 @@
 - **판타지 아트 스타일**: For the King에서 영감을 받은 독특한 비주얼.
 
 ## 🛠️ 사용 기술
+<div>
+  <img src="https://img.shields.io/badge/firebase-#DD2C00?style=for-the-badge&logo=firebase&logoColor=white"> 
 
-- **Unity 6 LTS**  
-- **C#**  
-- **URP (Universal Render Pipeline)**   
-- **Git / GitHub로 협업 관리**  
-- **Visual Studio / Rider (개발 환경)**
+</div>
