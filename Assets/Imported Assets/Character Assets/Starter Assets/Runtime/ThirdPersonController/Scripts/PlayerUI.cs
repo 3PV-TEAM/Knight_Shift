@@ -1,4 +1,5 @@
 using System;
+using Firebase.Auth;
 using TMPro;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
@@ -11,9 +12,11 @@ public class PlayerUI : MonoBehaviour
     public Image imgSkillCooldown;
     public TextMeshProUGUI skillCooldownText;
     public TextMeshProUGUI goldText;
+    public TextMeshProUGUI userNameText;
     
     SkillController skillController;
     PlayerDataManager playerDataManager;
+    FirebaseInit firebaseInit;
 
     public PlayerStatus playerStatus;
 
@@ -22,6 +25,16 @@ public class PlayerUI : MonoBehaviour
         skillController = FindFirstObjectByType<SkillController>();
         playerDataManager = FindFirstObjectByType<PlayerDataManager>();
         imgSkillCooldown.fillAmount = 0f;
+        
+        // 유저 정보 출력
+        var user = FirebaseAuth.DefaultInstance.CurrentUser;
+
+        if (user != null)
+        {
+            // 추후 DisplayName을 Firebase에서 가져오는 로직 추가 예정
+            string displayName = string.IsNullOrEmpty(user.Email) ? "게스트" : user.Email;
+            userNameText.text = $"{displayName}";
+        }
     }
 
     private void Update()

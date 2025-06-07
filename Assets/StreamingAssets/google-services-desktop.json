@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "265648052471",
+    "firebase_url": "https://knightshift-dmu-default-rtdb.firebaseio.com",
     "project_id": "knightshift-dmu",
     "storage_bucket": "knightshift-dmu.firebasestorage.app"
   },
