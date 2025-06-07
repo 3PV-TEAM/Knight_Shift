@@ -1,668 +1,775 @@
-using UnityEngine;
-using UnityEngine.AI;
-using System.Collections;
+    using UnityEngine;
+    using UnityEngine.AI;
+    using System.Collections;
 
-public class GolemAI : MonoBehaviour, IDamageable
-{
-    [Header("기본 설정")]
-    [SerializeField] private float maxHp = 200f;
-    [SerializeField] private float phase2Threshold = 0.5f; // 2페이즈 진입 체력 비율
-    private float currentHp;
-    private bool isDead = false;
-    private bool isHit = false;
-    private bool isPhase2 = false;
-    private bool isAttacking = false;
-
-    [Header("공격 설정")]
-    [SerializeField] private float attackRange = 4f;        // 기본 공격 범위 증가
-    [SerializeField] private float jumpAttackRange = 7f;    // 점프 공격 범위 증가
-    [SerializeField] private float throwRange = 12f;        // 던지기 범위 증가
-    [SerializeField] private float phase1AttackCooldown = 2f;
-    [SerializeField] private float phase2AttackCooldown = 1.2f;
-    
-    [Header("데미지 설정")]
-    [SerializeField] private float punch1Damage = 20f;
-    [SerializeField] private float punch2Damage = 25f;
-    [SerializeField] private float jumpAttackDamage = 35f;
-    [SerializeField] private float groundSmashDamage = 40f;
-    [SerializeField] private float throwDamage = 30f;
-
-    [Header("전투 강화 설정")]
-    [SerializeField] private float anticipationTime = 0.5f; // 공격 예비 동작 시간
-    [SerializeField] private float comboChance = 0.6f;     // 콤보 확률
-    
-    private float attackTimer = 0f;
-    private int comboCount = 0;
-    private bool isPreparingAttack = false;
-
-    private Transform player;
-    private NavMeshAgent agent;
-    private Animator animator;
-    private Collider mainCollider;
-
-    [Header("공격 판정 콜라이더")]
-    [SerializeField] private AttackCollider punch1Collider;
-    [SerializeField] private AttackCollider punch2Collider;
-    [SerializeField] private AttackCollider jumpAttackCollider;
-    [SerializeField] private AttackCollider groundSmashCollider;
-
-    [Header("회전 설정")]
-    [SerializeField] private float rotationSpeed = 8f;
-    [SerializeField] private float phase2RotationSpeed = 12f;
-
-    [Header("던지기 설정")]
-    [SerializeField] private GameObject rockPrefab; // 돌 프리팹
-    [SerializeField] private Transform throwOrigin; // 돌이 생성될 위치
-
-    [Header("바닥 치기 이펙트 설정")]
-    [SerializeField] private GameObject groundSmashEffectPrefab; // 바닥 치기 이펙트 프리팹
-    [SerializeField] private float groundSmashEffectRadius = 5f; // 이펙트 범위
-    [SerializeField] private LayerMask damageableLayer; // 데미지를 입힐 레이어
-
-    private enum GolemAttackType { Punch1, Punch2, JumpAttack, GroundSmash, ThrowRock }
-    private GolemAttackType currentAttackType;
-
-    private void Awake()
+    public class GolemAI : MonoBehaviour, IDamageable
     {
-        agent = GetComponent<NavMeshAgent>();
-        agent.updateRotation = false;  // 회전은 수동으로 처리
-        agent.radius = 1f;
-        agent.height = 2.5f;
-        agent.stoppingDistance = attackRange * 0.8f;
-        agent.autoBraking = true;
-        agent.obstacleAvoidanceType = ObstacleAvoidanceType.LowQualityObstacleAvoidance;
-        agent.areaMask = NavMesh.AllAreas;  // 모든 NavMesh Area에서 이동 가능하도록 설정
-        
-        Debug.Log($"NavMeshAgent initialized: Radius={agent.radius}, Height={agent.height}, StoppingDistance={agent.stoppingDistance}");
-        
-        animator = GetComponent<Animator>();
-        mainCollider = GetComponent<Collider>();
+        [Header("기본 설정")]
+        [SerializeField] float maxHp = 150f;
+        private float currentHp;
+        private bool isDead = false;
 
-        // 콜라이더 초기화 및 데미지 설정
-        InitializeColliders();
-    }
+        [Header("페이즈 설정")]
+        [SerializeField] float phase2HpThreshold = 0.5f; // HP 50% 이하에서 2페이즈
+        private bool isPhase2 = false;
+        private bool hasTriggeredPhase2 = false;
 
-    private void InitializeColliders()
-    {
-        if (punch1Collider) {
-            punch1Collider.gameObject.SetActive(false);
-            punch1Collider.damageAmount = punch1Damage;
-        }
-        if (punch2Collider) {
-            punch2Collider.gameObject.SetActive(false);
-            punch2Collider.damageAmount = punch2Damage;
-        }
-        if (jumpAttackCollider) {
-            jumpAttackCollider.gameObject.SetActive(false);
-            jumpAttackCollider.damageAmount = jumpAttackDamage;
-        }
-        if (groundSmashCollider) {
-            groundSmashCollider.gameObject.SetActive(false);
-            groundSmashCollider.damageAmount = groundSmashDamage;
-        }
-    }
+        [Header("이동 설정")]
+        [SerializeField] float walkSpeed = 1.5f;
+        [SerializeField] float phase2WalkSpeed = 2.2f; // 2페이즈 이동속도 증가
+        [SerializeField] float rotationSpeed = 2f;
 
-    void Start()
-    {
-        currentHp = maxHp;
-        FindPlayer();
+        [Header("공격 설정")]
+        [SerializeField] float attackRange = 4f;
+        [SerializeField] float closeRange = 2.5f;
+        [SerializeField] float leftPunchDamage = 30f;
+        [SerializeField] float rightPunchDamage = 30f;
+        [SerializeField] float groundSlamDamage = 45f;
+        [SerializeField] float attackCooldown = 2f;
         
-        // 초기 상태 리셋
-        isAttacking = false;
-        isPreparingAttack = false;
-        isHit = false;
+        // 2페이즈 데미지 증가
+        [SerializeField] float phase2DamageMultiplier = 1.5f;
+        [SerializeField] float phase2AttackCooldown = 1.5f;
+
+        [Header("바닥치기 공격 설정")]
+        [SerializeField] GameObject rockSpikePrefab;
+        [SerializeField] float spikeDistance = 6f;
+        [SerializeField] int spikeCount = 5;
+        [SerializeField] float spikeDelay = 0.2f;
+
+        [Header("쉴드 패턴 설정 (2페이즈 전용)")]
+        [SerializeField] GameObject golemShieldPrefab;
+        [SerializeField] GameObject smallEarthquakePrefab;
+        [SerializeField] GameObject largeEarthquakePrefab;
+        [SerializeField] float smallEarthquakeRadius = 8f;
+        [SerializeField] float largeEarthquakeRadius = 15f;
+        [SerializeField] float smallEarthquakeDamage = 25f;
+        [SerializeField] float largeEarthquakeDamage = 50f;
+
+        private bool isShieldPatternActive = false;
+        private GameObject golemShield;
+        private GameObject smallEarthquakeEffect;
+        private GameObject largeEarthquakeEffect;
+
+        [Header("연계 공격 설정")]
+        [SerializeField] float comboAttackProbability = 0.3f; // 2페이즈에서 연계 공격 확률
+        private bool isComboAttacking = false;
+
+        [Header("행동 확률 설정")]
+        [SerializeField] float walkAttackProbability = 0.4f;
+        [SerializeField] float stationaryAttackProbability = 0.5f;
+        [SerializeField] float shieldPatternProbability = 0.1f;
         
-        // NavMeshAgent 설정 재확인
-        if (agent != null)
+        // 2페이즈 확률 (쉴드 패턴 추가)
+        [SerializeField] float phase2WalkAttackProbability = 0.3f;
+        [SerializeField] float phase2StationaryAttackProbability = 0.4f;
+        [SerializeField] float phase2ShieldPatternProbability = 0.3f;
+
+        private float attackTimer = 0f;
+        private bool isAttacking = false;
+        private bool isWalkAttacking = false;
+
+        [Header("레이어 관리")]
+        [SerializeField] float upperBodyLayerWeight = 1f;
+        private int upperBodyLayerIndex;
+
+        private Transform player;
+        private NavMeshAgent agent;
+        private Animator animator;
+        private Collider mainCollider;
+
+        [Header("보스 UI")]
+        [SerializeField] private SimpleBossHealthBar bossHealthBar;
+        [SerializeField] private string bossName = "고대의 수호자"; // 한국어 이름
+        private bool isVisible = false; // 체력바 표시 여부 추가
+
+        [Header("공격 판정 콜라이더")]
+        [SerializeField] AttackCollider leftPunchCollider;
+        [SerializeField] AttackCollider rightPunchCollider;
+
+        private enum GolemAttackType
         {
-            agent.isStopped = false;
-            agent.stoppingDistance = attackRange * 0.8f;
-            agent.speed = 3.5f;
-            agent.angularSpeed = 120f;
-            agent.acceleration = 8f;
-            agent.autoBraking = true;
+            LeftPunch, RightPunch, GroundSlam, ComboAttack
+        }
+        private GolemAttackType currentAttackType;
 
-            // NavMesh 상태 체크
-            NavMeshHit hit;
-            if (NavMesh.SamplePosition(transform.position, out hit, 1.0f, NavMesh.AllAreas))
+        void Awake()
+        {
+            agent = GetComponent<NavMeshAgent>();
+            agent.updateRotation = false;
+            animator = GetComponent<Animator>();
+            mainCollider = GetComponent<Collider>();
+
+            upperBodyLayerIndex = animator.GetLayerIndex("Upper Body Layer");
+            if (upperBodyLayerIndex == -1)
             {
-                transform.position = hit.position;
-                Debug.Log($"Found valid NavMesh position: {hit.position}");
+                Debug.LogError("Upper Body Layer를 찾을 수 없습니다!");
+            }
+
+            InitializeAttackColliders();
+        }
+
+        void InitializeAttackColliders()
+        {
+            var colliders = new AttackCollider[] { leftPunchCollider, rightPunchCollider };
+            var damages = new float[] { leftPunchDamage, rightPunchDamage };
+
+            for (int i = 0; i < colliders.Length; i++)
+            {
+                if (colliders[i] != null)
+                {
+                    colliders[i].gameObject.SetActive(false);
+                    colliders[i].damageAmount = damages[i];
+                }
+            }
+        }
+
+        void Start()
+        {
+            currentHp = maxHp;
+            FindPlayer();
+
+            if (upperBodyLayerIndex != -1)
+            {
+                animator.SetLayerWeight(upperBodyLayerIndex, upperBodyLayerWeight);
+            }
+
+            DisableAttackCollider();
+            
+            if (bossHealthBar == null)
+               bossHealthBar = FindObjectOfType<SimpleBossHealthBar>();
+            if (bossHealthBar != null)
+        {
+            bossHealthBar.ShowBossHealthBar(bossName, maxHp, currentHp);
+            isVisible = true;
+            Debug.Log("골렘 씬 로드 완료! 체력바 즉시 표시");
+        }
+           
+        }
+
+        void FindPlayer()
+        {
+            GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+            if (playerObj != null) 
+            {
+                player = playerObj.transform;
+            }
+            else Debug.LogError("Player 태그를 찾을 수 없습니다.");
+        }
+
+        void Update()
+        {
+            if (isDead || player == null) return;
+
+            // 2페이즈 전환 체크
+            CheckPhase2Transition();
+
+            // 테스트 키들
+            if (Input.GetKeyDown(KeyCode.G))
+            {
+                Debug.Log("G키 - 강제 쉴드 패턴 실행!");
+                PerformShieldPattern();
+            }
+
+            if (Input.GetKeyDown(KeyCode.H))
+            {
+                Debug.Log("H키 - 강제 바닥치기 공격 실행!");
+                TestGroundSlam();
+            }
+
+            if (Input.GetKeyDown(KeyCode.J))
+            {
+                Debug.Log("J키 - 강제 연계 공격 실행!");
+                PerformComboAttack();
+            }
+
+            float distance = Vector3.Distance(transform.position, player.position);
+
+            UpdateTimers();
+            RotateTowardsPlayer();
+            HandleCombatState(distance);
+            HandleMovement(distance);
+        }
+
+        void CheckPhase2Transition()
+        {
+            if (!hasTriggeredPhase2 && currentHp <= maxHp * phase2HpThreshold)
+            {
+                TriggerPhase2();
+            }
+        }
+
+        void TriggerPhase2()
+        {
+            hasTriggeredPhase2 = true;
+            isPhase2 = true;
+            
+            Debug.Log("=== 골렘 2페이즈 돌입! ===");
+            
+            // 이동속도 증가
+            walkSpeed = phase2WalkSpeed;
+            
+            // 공격 쿨다운 감소
+            attackCooldown = phase2AttackCooldown;
+            
+            // 데미지 증가 (콜라이더 업데이트)
+            UpdatePhase2Damage();
+            
+            // 2페이즈 진입 애니메이션 (있다면)
+            // animator.SetTrigger("Phase2Transition");
+            
+            // 2페이즈 진입 효과 (파티클 등)
+            StartCoroutine(Phase2TransitionEffect());
+        }
+
+        void UpdatePhase2Damage()
+        {
+            if (leftPunchCollider != null)
+                leftPunchCollider.damageAmount = leftPunchDamage * phase2DamageMultiplier;
+            
+            if (rightPunchCollider != null)
+                rightPunchCollider.damageAmount = rightPunchDamage * phase2DamageMultiplier;
+        }
+
+        IEnumerator Phase2TransitionEffect()
+        {
+            // 잠시 멈추고 2페이즈 진입 연출
+            StopMovement();
+            isAttacking = true; // 진입 중에는 다른 행동 금지
+            
+            // 진입 효과 (예: 쉴드 잠깐 생성)
+            if (golemShieldPrefab != null)
+            {
+                Vector3 shieldPosition = transform.position + Vector3.down * 1.5f;
+                GameObject transitionShield = Instantiate(golemShieldPrefab, shieldPosition, Quaternion.identity);
+                transitionShield.transform.SetParent(transform);
+                
+                yield return new WaitForSeconds(2f);
+                
+                Destroy(transitionShield);
+            }
+            
+            isAttacking = false;
+            Debug.Log("2페이즈 진입 완료!");
+        }
+
+        void TestGroundSlam()
+        {
+            StopMovement();
+            isAttacking = true;
+            currentAttackType = GolemAttackType.GroundSlam;
+            
+            animator.SetTrigger("GroundSlam");
+            
+            attackTimer = isPhase2 ? phase2AttackCooldown : attackCooldown;
+            Debug.Log("테스트: 바닥치기 공격 실행!");
+        }
+
+        void UpdateTimers()
+        {
+            if (attackTimer > 0)
+            {
+                attackTimer -= Time.deltaTime;
+            }
+        }
+
+        void RotateTowardsPlayer()
+        {
+            if (isShieldPatternActive) return;
+            
+            Vector3 dirToPlayer = (player.position - transform.position).normalized;
+            dirToPlayer.y = 0;
+            
+            if (dirToPlayer.magnitude > 0.01f)
+            {
+                Quaternion targetRotation = Quaternion.LookRotation(dirToPlayer);
+                transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+            }
+        }
+
+        void HandleCombatState(float distance)
+        {
+            Debug.Log($"전투 상태 체크 - 페이즈: {(isPhase2 ? "2" : "1")}, 거리: {distance:F2}, 공격중: {isAttacking}, 쉴드패턴: {isShieldPatternActive}, 연계공격: {isComboAttacking}, 공격타이머: {attackTimer:F2}");
+            
+            if (isShieldPatternActive || isAttacking || isComboAttacking) return;
+
+            if (distance <= attackRange && attackTimer <= 0)
+            {
+                float actionRoll = Random.Range(0f, 1f);
+                Debug.Log($"공격 결정 - 랜덤값: {actionRoll:F2}");
+                
+                if (isPhase2)
+                {
+                    HandlePhase2Combat(actionRoll);
+                }
+                else
+                {
+                    HandlePhase1Combat(actionRoll);
+                }
+            }
+        }
+
+        void HandlePhase1Combat(float actionRoll)
+        {
+            if (actionRoll < walkAttackProbability)
+            {
+                PerformWalkAttack();
+            }
+            else if (actionRoll < walkAttackProbability + stationaryAttackProbability)
+            {
+                PerformStationaryAttack();
+            }
+            // 1페이즈에서는 쉴드 패턴 없음
+        }
+
+        void HandlePhase2Combat(float actionRoll)
+        {
+            // 2페이즈에서는 연계 공격 추가
+            if (actionRoll < comboAttackProbability)
+            {
+                PerformComboAttack();
+            }
+            else if (actionRoll < comboAttackProbability + phase2WalkAttackProbability)
+            {
+                PerformWalkAttack();
+            }
+            else if (actionRoll < comboAttackProbability + phase2WalkAttackProbability + phase2StationaryAttackProbability)
+            {
+                PerformStationaryAttack();
             }
             else
             {
-                Debug.LogError("Object is not on NavMesh!");
+                PerformShieldPattern(); // 2페이즈에서만 쉴드 패턴 사용
             }
         }
-        
-        // 디버그 로그 추가
-        Debug.Log($"Golem initialized with HP: {currentHp}/{maxHp}");
-        Debug.Log($"Golem Collider: {mainCollider.name}, isTrigger: {mainCollider.isTrigger}");
-    }
 
-    void Update()
-    {
-        if (isDead || player == null) return;
-        Debug.Log("Golem Speed: " + agent.velocity.magnitude);
-        // 애니메이션 상태 체크 - 수정된 부분
-        if (isAttacking)
+        void HandleMovement(float distance)
         {
-            // Base Layer와 Upper Body Layer 모두 체크
-            AnimatorStateInfo baseState = animator.GetCurrentAnimatorStateInfo(0); // Base Layer
-            AnimatorStateInfo upperState = animator.GetCurrentAnimatorStateInfo(1); // Upper Body Layer
-            
-            // 애니메이션이 끝났는데 이벤트가 호출되지 않으면 강제 호출
-            if ((baseState.normalizedTime >= 1.0f || upperState.normalizedTime >= 1.0f) && !animator.IsInTransition(0) && !animator.IsInTransition(1))
+            if (isShieldPatternActive || isComboAttacking)
             {
-                Debug.LogWarning("Animation finished but event not called - forcing end");
-                OnAttackAnimationEnd();
+                StopMovement();
+                return;
+            }
+
+            if (isWalkAttacking)
+            {
+                ContinueWalkAttack();
+            }
+            else if (!isAttacking && distance > attackRange)
+            {
+                MoveTowardsPlayer();
+            }
+            else if (!isAttacking && distance <= attackRange)
+            {
+                StopMovement();
             }
         }
-
-        float distance = Vector3.Distance(transform.position, player.position);
-        UpdateMovement(distance);
-        UpdateCombat(distance);
         
-        // 디버그: 현재 상태 출력 (너무 많은 로그를 피하기 위해 조건부로)
-        if (Time.frameCount % 60 == 0) // 1초마다 한 번씩만 출력
+        void MoveTowardsPlayer()
         {
-            Debug.Log($"Golem Status - HP: {currentHp}/{maxHp}, Distance: {distance:F1}, IsAttacking: {isAttacking}, IsHit: {isHit}");
+            agent.isStopped = false;
+            agent.SetDestination(player.position);
+            agent.speed = walkSpeed; // 2페이즈에서는 자동으로 빨라짐
+
+            Vector3 localDirection = transform.InverseTransformDirection(agent.velocity.normalized);
+            animator.SetFloat("MoveX", localDirection.x);
+            animator.SetFloat("MoveY", localDirection.z);
+
+            bool isMoving = agent.velocity.magnitude > 0.1f;
+            animator.SetBool("IsMoving", isMoving);
         }
-    }
 
-    private void UpdateMovement(float distance)
-    {
-        if (isDead || player == null) {
-            Debug.LogWarning("Dead or no player found");
-            return;
+        void ContinueWalkAttack()
+        {
+            agent.isStopped = false;
+            agent.SetDestination(player.position);
+            agent.speed = walkSpeed * 0.8f;
+
+            Vector3 localDirection = transform.InverseTransformDirection(agent.velocity.normalized);
+            animator.SetFloat("MoveX", localDirection.x);
+            animator.SetFloat("MoveY", localDirection.z);
+            
+            bool isMoving = agent.velocity.magnitude > 0.1f;
+            animator.SetBool("IsMoving", isMoving);
         }
-        
-        // 공격중이나 피격중이면 이동만 멈추고 회전은 계속함
-        Vector3 dirToPlayer = (player.position - transform.position).normalized;
-        dirToPlayer.y = 0;
 
-        // 회전 속도는 페이즈에 따라 다르게 적용
-        float currentRotationSpeed = isPhase2 ? phase2RotationSpeed : rotationSpeed;
-        
-        Quaternion targetRotation = Quaternion.LookRotation(dirToPlayer);
-        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 
-            currentRotationSpeed * Time.deltaTime);
-
-        // 공격/피격 중에는 이동 제한
-        if (isHit || isAttacking || isPreparingAttack) 
+        void StopMovement()
         {
             agent.isStopped = true;
-            animator.SetFloat("Speed", 0f);
-            animator.SetFloat("InputX", 0f);
-            animator.SetFloat("InputY", 0f);
-            return;
+            animator.SetFloat("MoveX", 0f);
+            animator.SetFloat("MoveY", 0f);
+            animator.SetBool("IsMoving", false);
         }
 
-        // 공격 중이 아닐 때는 플레이어를 향해 이동
-        agent.isStopped = false;
-        agent.SetDestination(player.position);
-        
-        // 실제로 이동 중인지 확인
-        float currentSpeed = agent.velocity.magnitude;
-        
-        if (currentSpeed > 0.1f)
+        void PerformWalkAttack()
         {
-            Vector3 localVelocity = transform.InverseTransformDirection(agent.velocity.normalized);
-            animator.SetFloat("InputX", localVelocity.x, 0.1f, Time.deltaTime);
-            animator.SetFloat("InputY", localVelocity.z, 0.1f, Time.deltaTime);
-            animator.SetFloat("Speed", currentSpeed);
-        }
-        else
-        {
-            animator.SetFloat("InputX", 0f, 0.1f, Time.deltaTime);
-            animator.SetFloat("InputY", 0f, 0.1f, Time.deltaTime);
-            animator.SetFloat("Speed", 0f);
-        }
-    }
-
-    private void UpdateCombat(float distance)
-{
-    if (isHit || isAttacking) return;
-
-    float currentAttackCooldown = isPhase2 ? phase2AttackCooldown : phase1AttackCooldown;
-
-    if (attackTimer > 0)
-    {
-        attackTimer -= Time.deltaTime;
-        return;
-    }
-
-    if (distance <= attackRange)
-    {
-        // 기본 공격 사거리: 정지 후 기본공격만
-        float randomValue = Random.value;
-        if (isPhase2 && randomValue < comboChance)
-        {
-            StartCoroutine(ExecuteComboAttack());
-        }
-        else if (randomValue < 0.5f)
-        {
-            ExecuteBasicAttack(GolemAttackType.Punch1);
-        }
-        else
-        {
-            ExecuteBasicAttack(GolemAttackType.Punch2);
-        }
-    }
-    else if (distance <= jumpAttackRange)
-    {
-        // 기본공격 사거리보다 멀고, 점프 공격 사거리 이내: 점프 공격(달려오면서 공격)
-        ExecuteJumpAttack();
-    }
-    else if (distance <= throwRange)
-    {
-        // 던지기 공격
-        ExecuteThrowAttack();
-    }
-    else
-    {
-        // throwRange 밖: 달려가면서 펀치(혹은 돌진 공격)
-        ExecuteMovingAttack(GolemAttackType.Punch1);
-    }
-}
-
-
-    private IEnumerator ExecuteComboAttack()
-    {
-        isAttacking = true;
-        agent.isStopped = true;
-
-        // 첫 번째 펀치
-        yield return StartCoroutine(PrepareAttack(GolemAttackType.Punch1, 0.3f));
-        
-        // 두 번째 펀치
-        yield return new WaitForSeconds(0.4f);
-        yield return StartCoroutine(PrepareAttack(GolemAttackType.Punch2, 0.3f));
-
-        attackTimer = isPhase2 ? phase2AttackCooldown : phase1AttackCooldown;
-    }
-
-    private IEnumerator PrepareAttack(GolemAttackType attackType, float prepTime)
-    {
-        isPreparingAttack = true;
-        
-        // 공격 예비 동작
-        animator.SetFloat("AttackAnticipation", (float)attackType);
-        
-        yield return new WaitForSeconds(prepTime);
-        
-        // 실제 공격 실행
-        animator.SetTrigger(attackType.ToString());
-        currentAttackType = attackType;
-        
-        yield return new WaitForSeconds(0.2f);
-        isPreparingAttack = false;
-    }
-
-    void FindPlayer()
-    {
-        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
-        if (playerObj != null) {
-            player = playerObj.transform;
-            Debug.Log($"Found player at position: {player.position}");
-        }
-        else {
-            Debug.LogError("Player 태그를 찾을 수 없습니다!");
-        }
-    }
-
-    private void ExecuteBasicAttack(GolemAttackType attackType)
-    {
-        StopAllCoroutines();
-        isAttacking = true;
-        isPreparingAttack = false;
-        agent.isStopped = true;
-
-        currentAttackType = attackType;
-        StartCoroutine(PrepareAttack(attackType, anticipationTime));
-
-        attackTimer = isPhase2 ? phase2AttackCooldown : phase1AttackCooldown;
-        Debug.Log($"Started basic attack: {attackType}");
-    }
-
-    private void ExecuteThrowAttack()
-    {
-        isAttacking = true;
-        agent.isStopped = true;
-
-        currentAttackType = GolemAttackType.ThrowRock;
-        StartCoroutine(PrepareAttack(GolemAttackType.ThrowRock, anticipationTime));
-
-        attackTimer = isPhase2 ? phase2AttackCooldown : phase1AttackCooldown;
-
-        // 돌 생성 및 던지기 로직 추가
-        if (rockPrefab != null && throwOrigin != null)
-        {
-            GameObject rock = Instantiate(rockPrefab, throwOrigin.position, throwOrigin.rotation);
-            Rigidbody rockRigidbody = rock.GetComponent<Rigidbody>();
-            if (rockRigidbody != null)
+            isWalkAttacking = true;
+            isAttacking = true;
+            
+            int randomAttack = Random.Range(0, 2);
+            if (randomAttack == 0)
             {
-                Vector3 throwDirection = (player.position - throwOrigin.position).normalized;
-                rockRigidbody.AddForce(throwDirection * 15f, ForceMode.Impulse); // 던지는 힘 설정
+                currentAttackType = GolemAttackType.LeftPunch;
+                animator.SetBool("WalkPunch1", true);
+                animator.SetTrigger("LeftPunch");
             }
-            Debug.Log("Rock thrown!");
+            else
+            {
+                currentAttackType = GolemAttackType.RightPunch;
+                animator.SetBool("WalkPunch2", true);
+                animator.SetTrigger("RightPunch");
+            }
+
+            attackTimer = isPhase2 ? phase2AttackCooldown : attackCooldown;
+            Debug.Log($"이동하면서 공격: {currentAttackType}");
         }
-        else
+
+        void PerformStationaryAttack()
         {
-            Debug.LogError("Rock prefab or throw origin is not assigned!");
+            StopMovement();
+            isAttacking = true;
+            
+            int randomAttack = Random.Range(0, 3);
+            currentAttackType = (GolemAttackType)randomAttack;
+
+            switch (currentAttackType)
+            {
+                case GolemAttackType.LeftPunch:
+                    animator.SetTrigger("LeftPunch");
+                    break;
+                case GolemAttackType.RightPunch:
+                    animator.SetTrigger("RightPunch");
+                    break;
+                case GolemAttackType.GroundSlam:
+                    animator.SetTrigger("GroundSlam");
+                    break;
+            }
+
+            attackTimer = isPhase2 ? phase2AttackCooldown : attackCooldown;
+            Debug.Log($"제자리 공격: {currentAttackType}");
+        }
+
+        // 새로운 연계 공격 (Punch1 → Punch2)
+        void PerformComboAttack()
+        {
+            if (isComboAttacking) return;
+            
+            Debug.Log("연계 공격 시작: LeftPunch → RightPunch");
+            StartCoroutine(ComboAttackSequence());
+        }
+
+        IEnumerator ComboAttackSequence()
+    {
+        isComboAttacking = true;
+        isAttacking = true;
+        StopMovement();
+
+        // 연계 공격 시작 표시
+        animator.SetBool("ComboAttack", true);
+        animator.SetInteger("ComboStep", 1);
+
+        // 1단계: 왼손 펀치
+        currentAttackType = GolemAttackType.LeftPunch;
+        animator.SetTrigger("LeftPunch");
+        Debug.Log("연계 공격 1단계: 왼손 펀치");
+
+        // 첫 번째 공격이 끝날 때까지 대기
+        yield return new WaitForSeconds(1.2f);
+
+        // 2단계로 전환
+        animator.SetInteger("ComboStep", 2);
+
+        // 2단계: 오른손 펀치 (연계)
+        currentAttackType = GolemAttackType.RightPunch;
+        animator.SetTrigger("RightPunch");
+        Debug.Log("연계 공격 2단계: 오른손 펀치");
+
+        // 두 번째 공격이 끝날 때까지 대기
+        yield return new WaitForSeconds(1.2f);
+
+        // 연계 공격 완료
+        animator.SetBool("ComboAttack", false);
+        animator.SetInteger("ComboStep", 0);
+        
+        isComboAttacking = false;
+        isAttacking = false;
+        attackTimer = isPhase2 ? phase2AttackCooldown : attackCooldown;
+        
+        Debug.Log("연계 공격 완료!");
+        
+        // 연계 공격 후 이동 재개
+        float distance = Vector3.Distance(transform.position, player.position);
+        if (distance > attackRange)
+        {
+            MoveTowardsPlayer();
         }
     }
 
-    private void ExecuteGroundSmash()
-    {
-        isAttacking = true;
-        agent.isStopped = true;
 
-        currentAttackType = GolemAttackType.GroundSmash;
-        StartCoroutine(PrepareAttack(GolemAttackType.GroundSmash, anticipationTime * 1.5f));
-
-        attackTimer = isPhase2 ? phase2AttackCooldown : phase1AttackCooldown;
-
-        // 바닥 치기 이펙트 생성
-        if (groundSmashEffectPrefab != null)
+        void PerformShieldPattern()
         {
-            GameObject effect = Instantiate(groundSmashEffectPrefab, transform.position, Quaternion.identity);
-            Destroy(effect, 2f); // 이펙트는 2초 후에 제거
+            if (isShieldPatternActive || !isPhase2) return; // 2페이즈에서만 사용 가능
+            
+            Debug.Log("골렘 쉴드 패턴 시작! (2페이즈 전용)");
+            StartCoroutine(ShieldEarthquakePattern());
+        }
 
-            // 이펙트 범위 내의 대상에게 데미지 입히기
-            Collider[] hitColliders = Physics.OverlapSphere(transform.position, groundSmashEffectRadius, damageableLayer);
+        IEnumerator ShieldEarthquakePattern()
+        {
+            isShieldPatternActive = true;
+            animator.SetBool("ShieldPattern", true);
+            StopMovement();
+
+            // 쉴드 생성
+            if (golemShieldPrefab != null)
+            {
+                Vector3 shieldPosition = transform.position + Vector3.down * 1.5f;
+                golemShield = Instantiate(golemShieldPrefab, shieldPosition, Quaternion.identity);
+                golemShield.transform.SetParent(transform);
+                Debug.Log("골렘 쉴드 생성!");
+            }
+
+            // === 1단계: 작은 지진 ===
+            if (smallEarthquakePrefab != null)
+            {
+                smallEarthquakeEffect = Instantiate(smallEarthquakePrefab, transform.position, Quaternion.identity);
+                Debug.Log("작은 지진 파티클 생성!");
+            }
+            
+            yield return new WaitForSeconds(0.3f);
+            DealEarthquakeDamage(smallEarthquakeRadius, smallEarthquakeDamage * (isPhase2 ? phase2DamageMultiplier : 1f), "작은 지진");
+            
+            yield return new WaitForSeconds(0.5f);
+            if (smallEarthquakeEffect != null) Destroy(smallEarthquakeEffect);
+
+            // === 2단계: 큰 지진 ===
+            yield return new WaitForSeconds(0.5f);
+            
+            if (largeEarthquakePrefab != null)
+            {
+                largeEarthquakeEffect = Instantiate(largeEarthquakePrefab, transform.position, Quaternion.identity);
+                Debug.Log("큰 지진 파티클 생성!");
+            }
+            
+            yield return new WaitForSeconds(0.3f);
+            DealEarthquakeDamage(largeEarthquakeRadius, largeEarthquakeDamage * (isPhase2 ? phase2DamageMultiplier : 1f), "큰 지진");
+
+            // === 패턴 즉시 종료 ===
+            yield return new WaitForSeconds(0.5f);
+
+            // 모든 이펙트 즉시 정리
+            if (golemShield != null) 
+            {
+                Destroy(golemShield);
+                Debug.Log("쉴드 파티클 삭제!");
+            }
+            if (largeEarthquakeEffect != null) 
+            {
+                Destroy(largeEarthquakeEffect);
+                Debug.Log("큰 지진 파티클 삭제!");
+            }
+
+            animator.SetBool("ShieldPattern", false);
+            isShieldPatternActive = false;
+            attackTimer = isPhase2 ? phase2AttackCooldown : attackCooldown;
+            Debug.Log("쉴드 패턴 완료!");
+            
+            // 패턴 종료 후 즉시 이동 시작
+            float distance = Vector3.Distance(transform.position, player.position);
+            if (distance > attackRange)
+            {
+                MoveTowardsPlayer();
+                Debug.Log("쉴드 패턴 종료 - 골렘 이동 시작!");
+            }
+        }
+
+        void DealEarthquakeDamage(float radius, float damage, string earthquakeType)
+        {
+            Collider[] hitColliders = Physics.OverlapSphere(transform.position, radius);
+            
             foreach (Collider hitCollider in hitColliders)
             {
-                IDamageable damageable = hitCollider.GetComponent<IDamageable>();
-                if (damageable != null)
+                if (hitCollider.CompareTag("Player"))
                 {
-                    damageable.TakeDamage(groundSmashDamage);
-                    Debug.Log($"Ground smash hit: {hitCollider.name}, Damage: {groundSmashDamage}");
+                    IDamageable damageable = hitCollider.GetComponent<IDamageable>();
+                    if (damageable != null)
+                    {
+                        damageable.TakeDamage(damage);
+                        Debug.Log($"{earthquakeType} 데미지! 플레이어에게 {damage} 데미지! (2페이즈: {isPhase2})");
+                    }
                 }
             }
         }
-        else
+
+        public void OnGroundSlamHit()
         {
-            Debug.LogError("Ground smash effect prefab is not assigned!");
-        }
-    }
-    private void ExecuteJumpAttack()
-{
-    isAttacking = true;
-    agent.isStopped = false; // 이동 유지(달려오면서 공격)
-    animator.SetTrigger("JumpAttack");
-    currentAttackType = GolemAttackType.JumpAttack;
-    attackTimer = isPhase2 ? phase2AttackCooldown : phase1AttackCooldown;
-    Debug.Log("Started jump attack!");
-}
-
-
-    // TakeDamage 메서드 개선 - 주요 수정 부분
-    public void TakeDamage(float damageAmount)
-    {
-        Debug.Log($"=== TakeDamage called on {gameObject.name} ===");
-        Debug.Log($"Damage amount: {damageAmount}");
-        Debug.Log($"Current HP before damage: {currentHp}");
-        Debug.Log($"Is dead: {isDead}");
-
-        if (isDead)
-        {
-            Debug.Log("Golem is already dead, ignoring damage");
-            return;
+            Debug.Log("바닥치기 임팩트! 바위 송곳 생성 시작!");
+            StartCoroutine(CreateRockSpikes());
         }
 
-        // 데미지 적용
-        currentHp -= damageAmount;
-        currentHp = Mathf.Max(0, currentHp); // 음수 방지
-
-        Debug.Log($"HP after damage: {currentHp}/{maxHp}");
-
-        // Hit 애니메이션 트리거
-        if (animator != null)
+        IEnumerator CreateRockSpikes()
         {
-            animator.SetTrigger("Hit");
-            Debug.Log("Hit animation triggered");
+            Vector3 golemForward = transform.forward;
+            Vector3 startPosition = transform.position + golemForward * 1f;
+            
+            for (int i = 0; i < spikeCount; i++)
+            {
+                Vector3 spikePosition = startPosition + golemForward * i * (spikeDistance / spikeCount);
+                
+                if (rockSpikePrefab != null)
+                {
+                    GameObject spike = Instantiate(rockSpikePrefab, spikePosition, Quaternion.LookRotation(golemForward));
+                    
+                    ParticleSystem spikeParticle = spike.GetComponent<ParticleSystem>();
+                    if (spikeParticle != null)
+                    {
+                        var shape = spikeParticle.shape;
+                        shape.rotation = new Vector3(0, 0, 0);
+                    }
+                    
+                    RockSpike spikeScript = spike.GetComponent<RockSpike>();
+                    if (spikeScript == null)
+                    {
+                        spikeScript = spike.AddComponent<RockSpike>();
+                    }
+                    // 2페이즈에서는 바닥치기 데미지도 증가
+                    float finalDamage = groundSlamDamage * (isPhase2 ? phase2DamageMultiplier : 1f);
+                    spikeScript.Initialize(finalDamage);
+                }
+                
+                yield return new WaitForSeconds(spikeDelay);
+            }
         }
 
-        // Hit 상태 설정
-        isHit = true;
-
-        // 공격 중단
-        if (isAttacking)
+        public void EnableAttackCollider()
         {
-            StopAllCoroutines();
-            isAttacking = false;
-            isPreparingAttack = false;
             DisableAttackCollider();
+
+            switch (currentAttackType)
+            {
+                case GolemAttackType.LeftPunch:
+                    if (leftPunchCollider) leftPunchCollider.gameObject.SetActive(true);
+                    break;
+                case GolemAttackType.RightPunch:
+                    if (rightPunchCollider) rightPunchCollider.gameObject.SetActive(true);
+                    break;
+                case GolemAttackType.GroundSlam:
+                    Debug.Log("바닥치기는 파티클 데미지로 처리됩니다.");
+                    break;
+            }
         }
 
-        Debug.Log($"Golem took damage: {damageAmount}, Current HP: {currentHp}/{maxHp}");
-
-        // 2페이즈 진입 체크
-        if (!isPhase2 && (currentHp / maxHp) <= phase2Threshold)
+        public void DisableAttackCollider()
         {
-            Debug.Log("Entering Phase 2!");
-            EnterPhase2();
+            var colliders = new AttackCollider[] { leftPunchCollider, rightPunchCollider };
+            
+            foreach (var collider in colliders)
+            {
+                if (collider) collider.gameObject.SetActive(false);
+            }
         }
 
-        // 사망 체크
-        if (currentHp <= 0)
+        public void OnAttackAnimationEnd()
         {
-            Debug.Log("Golem HP reached 0, calling Die()");
-            Die();
+            // 연계 공격 중이면 개별적으로 처리하지 않음
+            if (isComboAttacking) return;
+            
+            Debug.Log("공격 애니메이션 종료!");
+            isAttacking = false;
+            isWalkAttacking = false;
+            
+            DisableAttackCollider();
+            
+            animator.ResetTrigger("LeftPunch");
+            animator.ResetTrigger("RightPunch");
+            animator.ResetTrigger("GroundSlam");
+            
+            float distance = Vector3.Distance(transform.position, player.position);
+            if (distance > attackRange)
+            {
+                MoveTowardsPlayer();
+            }
         }
 
-        Debug.Log("=== TakeDamage completed ===");
-    }
-
-    private void EnterPhase2()
-    {
-        isPhase2 = true;
-        animator.SetBool("Phase2", true);
-        Debug.Log("Golem entered Phase 2!");
-        // 2페이즈 진입 이펙트나 사운드 등 추가
-    }
-
-    // 애니메이션 이벤트에서 호출될 메서드들
-    public void EnableAttackCollider()
-    {
-        Debug.Log($"Enabling attack collider for {currentAttackType}");
-        switch (currentAttackType)
+        public void OnWalkAttackAnimationEnd()
         {
-            case GolemAttackType.Punch1:
-                if (punch1Collider) 
-                {
-                    punch1Collider.gameObject.SetActive(true);
-                    Debug.Log("Punch1 collider enabled");
-                }
-                break;
-            case GolemAttackType.Punch2:
-                if (punch2Collider)
-                {
-                    punch2Collider.gameObject.SetActive(true);
-                    Debug.Log("Punch2 collider enabled");
-                }
-                break;
-            case GolemAttackType.JumpAttack:
-            case GolemAttackType.GroundSmash:
-                if (groundSmashCollider) 
-                {
-                    // 콜라이더를 골렘의 발 아래에 위치시킴
-                    Vector3 groundPosition = transform.position;
-                    groundPosition.y = Mathf.Max(groundPosition.y - 0.1f, 0f); // 바닥 아래로 가지 않도록
-                    groundSmashCollider.transform.position = groundPosition;
-                    groundSmashCollider.gameObject.SetActive(true);
-                    Debug.Log($"Ground attack collider enabled at {groundPosition}");
-                }
-                break;
-            case GolemAttackType.ThrowRock:
-                Debug.Log("ThrowRock attack - no collider implementation yet");
-                break;
+            Debug.Log("이동 공격 애니메이션 종료!");
+            isWalkAttacking = false;
+            isAttacking = false;
+            
+            DisableAttackCollider();
+            
+            animator.SetBool("WalkPunch1", false);
+            animator.SetBool("WalkPunch2", false);
+            
+            animator.ResetTrigger("LeftPunch");
+            animator.ResetTrigger("RightPunch");
+            
+            float distance = Vector3.Distance(transform.position, player.position);
+            if (distance > attackRange)
+            {
+                MoveTowardsPlayer();
+            }
         }
-    }
 
-    public void DisableAttackCollider()
-    {
-        if (punch1Collider) punch1Collider.gameObject.SetActive(false);
-        if (punch2Collider) punch2Collider.gameObject.SetActive(false);
-        if (jumpAttackCollider) jumpAttackCollider.gameObject.SetActive(false);
-        if (groundSmashCollider) groundSmashCollider.gameObject.SetActive(false);
-    }
-
-    public void OnAttackAnimationEnd()
-    {
-        isAttacking = false;
-        isPreparingAttack = false;
-        Debug.Log($"Attack animation ended, currentAttackType: {currentAttackType}");
-        
-        // 공격 끝난 후 이동 재개
-        if (agent != null && agent.enabled && !isHit)
+        public void TakeDamage(float damageAmount)
         {
-            agent.isStopped = false;
-            Debug.Log("Movement resumed");
-        }
-    }
+            if (isDead) return;
 
-    public void OnHitAnimationEnd()
-    {
-        isHit = false;
-        Debug.Log("Hit animation ended, resuming normal behavior");
-        
-        // Hit 애니메이션이 끝나면 이동 재개
-        if (agent != null && agent.enabled && !isAttacking)
-        {
-            agent.isStopped = false;
-        }
-    }
+            currentHp -= damageAmount;
+            
+            // 체력바 업데이트 (페이즈 파라미터 제거)
+            bossHealthBar?.UpdateHealth(currentHp);
+            
+            Debug.Log($"골렘이 {damageAmount} 데미지를 받았습니다. 현재 HP: {currentHp}/{maxHp} (페이즈: {(isPhase2 ? "2" : "1")})");
 
-    private void Die()
+            if (currentHp <= 0)
+            {
+                Die();
+            }
+        }
+
+
+
+    void Die()
     {
-        Debug.Log("Golem is dying!");
         isDead = true;
         
-        if (animator != null)
+        // 체력바 숨기기 추가
+        bossHealthBar?.HideBossHealthBar();
+        
+        animator.SetTrigger("Death");
+        mainCollider.enabled = false;
+        agent.isStopped = true;
+        
+        if (upperBodyLayerIndex != -1)
         {
-            animator.SetTrigger("Death");
+            animator.SetLayerWeight(upperBodyLayerIndex, 0f);
         }
         
-        if (mainCollider != null)
-        {
-            mainCollider.enabled = false;
-        }
-        
-        if (agent != null)
-        {
-            agent.isStopped = true;
-            agent.enabled = false;
-        }
-        
-        // 모든 코루틴 중단
-        StopAllCoroutines();
-        
-        // 공격 콜라이더 비활성화
-        DisableAttackCollider();
-        
-        // 스크립트 비활성화는 Death 애니메이션이 끝난 후에 하도록 수정
-        // this.enabled = false; // 이 라인을 주석 처리
-        
-        Debug.Log("Golem death sequence completed");
+        Destroy(gameObject, 5f);
+        Debug.Log("골렘 사망!");
     }
 
-    // Death 애니메이션이 끝났을 때 호출될 메서드 (애니메이션 이벤트에서 호출)
-    public void OnDeathAnimationEnd()
-    {
-        this.enabled = false;
-        Debug.Log("Golem script disabled after death animation");
-    }
-
-    public void SpawnRockDuringAnimation()
-    {
-        // 돌 생성 및 골렘 손 위치로 이동
-        if (rockPrefab != null && throwOrigin != null)
+        void OnDrawGizmosSelected()
         {
-            GameObject rock = Instantiate(rockPrefab, throwOrigin.position, throwOrigin.rotation);
-            rock.transform.SetParent(throwOrigin); // 골렘 손 위치에 고정
-            rock.transform.localPosition = Vector3.zero; // 손 위치로 이동
-            rock.transform.localRotation = Quaternion.identity;
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position, attackRange);
 
-            Debug.Log("Rock spawned and attached to Golem's hand!");
-        }
-        else
-        {
-            Debug.LogError("Rock prefab or throw origin is not assigned!");
-        }
-    }
+            Gizmos.color = Color.blue;
+            Gizmos.DrawWireSphere(transform.position, closeRange);
 
-    public void ThrowRock()
-    {
-        // 돌 던지기 로직
-        if (throwOrigin.childCount > 0)
-        {
-            Transform rock = throwOrigin.GetChild(0); // 손 위치에 있는 돌 가져오기
-            rock.SetParent(null); // 손에서 분리
-            Rigidbody rockRigidbody = rock.GetComponent<Rigidbody>();
-            if (rockRigidbody != null)
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawWireSphere(transform.position, smallEarthquakeRadius);
+
+            Gizmos.color = new Color(1f, 0.5f, 0f);
+            Gizmos.DrawWireSphere(transform.position, largeEarthquakeRadius);
+            
+            // 2페이즈 표시
+            if (isPhase2)
             {
-                // 물리 활성화 및 던지는 방향 설정
-                rockRigidbody.isKinematic = false; // 물리 활성화
-                rockRigidbody.useGravity = true; // 중력 활성화
-                Vector3 throwDirection = (player.position - throwOrigin.position).normalized;
-                rockRigidbody.AddForce(throwDirection * 15f, ForceMode.Impulse); // 던지는 힘 설정
-
-                Debug.Log("Rock thrown!");
-            }
-            else
-            {
-                Debug.LogError("Rock does not have a Rigidbody component!");
+                Gizmos.color = Color.magenta;
+                Gizmos.DrawWireCube(transform.position + Vector3.up * 3f, Vector3.one);
             }
         }
-        else
-        {
-            Debug.LogError("No rock found in throwOrigin!");
-        }
     }
-
-    private void ExecuteMovingAttack(GolemAttackType attackType)
-    {
-        isAttacking = true;
-
-        // 상체 공격 애니메이션 트리거 설정
-        animator.SetTrigger(attackType.ToString());
-        currentAttackType = attackType;
-
-        // 하체는 계속 이동하도록 설정
-        agent.isStopped = false;
-
-        // 공격 쿨다운 설정
-        attackTimer = isPhase2 ? phase2AttackCooldown : phase1AttackCooldown;
-
-        Debug.Log($"Started moving attack: {attackType}");
-    }
-
-    // 디버그용 메서드 - Inspector에서 체력을 직접 확인할 수 있도록
-    [System.Serializable]
-    public class DebugInfo
-    {
-        [ReadOnly] public float currentHpDebug;
-        [ReadOnly] public bool isDeadDebug;
-        [ReadOnly] public bool isHitDebug;
-        [ReadOnly] public bool isAttackingDebug;
-        [ReadOnly] public bool isPhase2Debug;
-    }
-    
-    [Header("디버그 정보")]
-    [SerializeField] private DebugInfo debugInfo = new DebugInfo();
-
-    private void LateUpdate()
-    {
-        // 디버그 정보 업데이트
-        debugInfo.currentHpDebug = currentHp;
-        debugInfo.isDeadDebug = isDead;
-        debugInfo.isHitDebug = isHit;
-        debugInfo.isAttackingDebug = isAttacking;
-        debugInfo.isPhase2Debug = isPhase2;
-    }
-}
-
-// ReadOnly 속성 클래스 (Inspector에서 읽기 전용으로 표시)
-public class ReadOnlyAttribute : PropertyAttribute { }

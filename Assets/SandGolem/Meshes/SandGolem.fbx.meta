@@ -410,6 +410,20 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
+      - time: 0.49496517
+        functionName: OnGroundSlamHit
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.4417078
+        functionName: OnGroundSlamHit
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -489,13 +503,6 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.40740713
-        functionName: EnableAttackCollider
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
       - time: 0.9322154
         functionName: DisableAttackCollider
         data: 
@@ -505,6 +512,13 @@ ModelImporter:
         messageOptions: 0
       - time: 0.97777814
         functionName: OnAttackAnimationEnd
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.36868286
+        functionName: EnableAttackCollider
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
@@ -539,36 +553,22 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.5048642
-        functionName: EnableAttackCollider
+      - time: 0.27257442
+        functionName: OnRockExtract
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.8536887
-        functionName: DisableAttackCollider
+      - time: 0.76330423
+        functionName: OnRockThrow
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.9666667
-        functionName: OnAttackAnimationEnd
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.34074068
-        functionName: SpawnRockDuringAnimation
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.7592592
-        functionName: ThrowRock
+      - time: 0.96056217
+        functionName: OnRockThrowAnimationEnd
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
