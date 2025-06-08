@@ -1,10 +1,11 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StartScreenUIManager : MonoBehaviour
 {
     [Header("UI References")]
     public GameObject optionUI;
-    public GameObject soundbrightsettingUI;
+    public GameObject soundUI;
     public GameObject graphicUI;
     public GameObject displayUI;
 
@@ -27,7 +28,7 @@ public class StartScreenUIManager : MonoBehaviour
     // ▶ 소리/밝기 버튼 클릭 시
     public void OpenSoundBrightSettings()
     {
-        ShowOnlySetting(soundbrightsettingUI);
+        ShowOnlySetting(soundUI);
     }
 
     // ▶ 그래픽 버튼 클릭 시
@@ -46,7 +47,7 @@ public class StartScreenUIManager : MonoBehaviour
     private void ShowOnlySetting(GameObject targetUI)
     {
         optionUI.SetActive(false);
-        soundbrightsettingUI.SetActive(false);
+        soundUI.SetActive(false);
         graphicUI.SetActive(false);
         displayUI.SetActive(false);
 
@@ -57,13 +58,13 @@ public class StartScreenUIManager : MonoBehaviour
     // ▶ 소리/그래픽/디스플레이 중 하나라도 켜져있나?
     private bool IsAnySubSettingOpen()
     {
-        return soundbrightsettingUI.activeSelf || graphicUI.activeSelf || displayUI.activeSelf;
+        return soundUI.activeSelf || graphicUI.activeSelf || displayUI.activeSelf;
     }
 
     // ▶ 서브 설정 창 모두 닫기
     private void CloseAllSettings()
     {
-        soundbrightsettingUI.SetActive(false);
+        soundUI.SetActive(false);
         graphicUI.SetActive(false);
         displayUI.SetActive(false);
     }
@@ -77,6 +78,17 @@ public class StartScreenUIManager : MonoBehaviour
     // ▶ 게임 종료 버튼 (예정)
     public void QuitGame()
     {
-        // 추후 Application.Quit() 추가
+        Application.Quit();
+    }
+
+    public void BackToMainMenu()
+    {
+        SceneManager.LoadScene("Main");
+        gameObject.SetActive(false);
+    }
+    
+    public void ClosePanel(GameObject panel)
+    {
+        panel.SetActive(false);
     }
 }

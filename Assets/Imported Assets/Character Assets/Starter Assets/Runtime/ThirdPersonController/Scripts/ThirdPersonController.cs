@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 #endif
 using System.Collections;
 using System;
+using UnityEngine.EventSystems;
 
 /* Note: animations are called via the controller for both the character and capsule using animator null checks
  */
@@ -428,6 +429,9 @@ namespace StarterAssets
 
         private void HandleAttack()
         {
+            if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
+                return;
+            
             if (_input.attack && _hasAnimator && playerStatus.currentSp > 0)
             {
                 _attackComponent.attackProcess();

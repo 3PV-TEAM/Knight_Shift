@@ -1,6 +1,7 @@
 using System;
 using Firebase.Auth;
 using TMPro;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 using UnityEngine.UI;
@@ -13,6 +14,8 @@ public class PlayerUI : MonoBehaviour
     public TextMeshProUGUI skillCooldownText;
     public TextMeshProUGUI goldText;
     public TextMeshProUGUI userNameText;
+    public GameObject OptionPanel;
+    private CinemachineCamera vcam;
     
     SkillController skillController;
     PlayerDataManager playerDataManager;
@@ -24,6 +27,8 @@ public class PlayerUI : MonoBehaviour
     {
         skillController = FindFirstObjectByType<SkillController>();
         playerDataManager = FindFirstObjectByType<PlayerDataManager>();
+        vcam = FindFirstObjectByType<CinemachineCamera>();
+        
         imgSkillCooldown.fillAmount = 0f;
         
         // 유저 정보 출력
@@ -48,6 +53,11 @@ public class PlayerUI : MonoBehaviour
         else
         {
             skillCooldownText.enabled = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            ToggleOptionPanel();
         }
     }
 
@@ -80,6 +90,17 @@ public class PlayerUI : MonoBehaviour
         if (skillCooldownText != null)
         {
             skillCooldownText.text = cooldown.ToString("F1");
+        }
+    }
+    
+    public void ToggleOptionPanel()
+    {
+        if (OptionPanel != null)
+        {
+            OptionPanel.SetActive(!OptionPanel.activeSelf);
+            Time.timeScale = OptionPanel.activeSelf ? 0f : 1f;
+            Cursor.lockState = OptionPanel.activeSelf ? CursorLockMode.None : CursorLockMode.Locked;
+            vcam.gameObject.SetActive(!OptionPanel.activeSelf);
         }
     }
 }
