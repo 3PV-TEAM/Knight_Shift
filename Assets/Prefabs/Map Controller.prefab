@@ -49,7 +49,7 @@ MonoBehaviour:
   maxNodesPerLayer: 2
   minBranchesPerNode: 1
   maxBranchesPerNode: 1
-  placeShopOrCampBeforeBoss: 1
+  placeShopOrCampBeforeBoss: 0
   placeCampBeforeBattle: 0
   shopEarlyLayerLimit: 1
   battleProbability: 0.6

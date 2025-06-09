@@ -7,55 +7,20 @@
     <list default="true" id="975f744f-261c-47ed-bc26-3abe032e6f67" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DMU_UNITY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DMU_UNITY/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Font/korean.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/korean.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Character Assets/Starter Assets/Runtime/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Character Assets/Starter Assets/Runtime/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Character Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/PlayerUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Character Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/PlayerUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Character Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/ThirdPersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Character Assets/Starter Assets/Runtime/ThirdPersonController/Scripts/ThirdPersonController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_apples.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_apples.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead_cut.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead_cut.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_green.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_green.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_green_cut.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_green_cut.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_logs.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_logs.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_pears.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_pears.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_plums.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_plums.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_stump.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_stump.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_dead.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_dead.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_dead_cut.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_dead_cut.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green_cut.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green_cut.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_logs.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_logs.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_stump.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Map Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_stump.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AcceptUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AcceptUI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ManaTimeText.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ManaTimeText.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Monster/Skeleton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Monster/Skeleton.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/OptionUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/OptionUI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PickPanel.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PickPanel.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SlotPanel.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SlotPanel.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Map Controller.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Map Controller.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerArmature.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlayerArmature.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Portal/Portal Generator.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Portal/Portal Generator.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Upgrade Manager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Upgrade Manager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Battle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Battle.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Boss.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Boss.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Shop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Shop.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Start.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Start.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Jumen/Jumen/StartScreenManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Jumen/Jumen/StartScreenManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AttackStateBehavior.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AttackStateBehavior.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSceneManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSceneManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EscSettingPanel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EscSettingPanel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoginUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoginUI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainUI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Portal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Portal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShopNpc.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShopNpc.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Jumen/ForestSceneDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Jumen/ForestSceneDemo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Myth/Myth.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Myth/Myth.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/google-services-desktop.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/google-services-desktop.json.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/HeirofLightRegular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/HeirofLightRegular SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -45,12 +45,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allWeapons:
-  - {fileID: 11400000, guid: cc1e5e90b51044da0bb0a05267543a65, type: 2}
   - {fileID: 11400000, guid: 4a9765357e2ba4cbd81a02b7f9de1451, type: 2}
   - {fileID: 11400000, guid: e1b8f23930a1e4ff59aad9174f0245bd, type: 2}
   - {fileID: 11400000, guid: 580ec73593f2e448bb738d6234f6b63a, type: 2}
   - {fileID: 11400000, guid: fcc01a47706d842e5b402822019ec62c, type: 2}
+  - {fileID: 11400000, guid: cc1e5e90b51044da0bb0a05267543a65, type: 2}
   - {fileID: 11400000, guid: 51eb5141e48304403bd4458995aa53f7, type: 2}
+  - {fileID: 11400000, guid: 46c50626b116a44eeb216fda8497180a, type: 2}
+  - {fileID: 11400000, guid: bcf89d3fe1f334271bee82e26791b43f, type: 2}
   displaySlots:
   - {fileID: 0}
   - {fileID: 0}

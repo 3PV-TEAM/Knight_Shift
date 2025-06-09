@@ -49,5 +49,7 @@ MonoBehaviour:
   campPortalPrefab: {fileID: 314702941245235798, guid: df48e78a15805440db722a0c3eda6f9b, type: 3}
   bossPortalPrefab: {fileID: 314702941245235798, guid: ade65d276458940e8a27835e85c1b929, type: 3}
   portalParent: {fileID: 0}
-  portalSpacingX: 3
+  portalSpacingX: 0
+  portalSpacingZ: 2
   startPosition: {x: 0, y: 0, z: 0}
+  startRotation: {x: 0, y: 90, z: 0}

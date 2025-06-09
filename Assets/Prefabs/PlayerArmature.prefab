@@ -65,7 +65,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4224764826742535346}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.04042696, y: 0.042868655, z: -0.035677902}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -142,9 +142,10 @@ MonoBehaviour:
   dashStamina: 10
   runStamina: 2
   skillStamina: 30
-  staminaRecoveryRate: 15
-  recoveryDelay: 1.5
+  staminaRecoveryRate: 30
+  recoveryDelay: 1
   lastStaminaUseTime: 0
+  isDead: 0
 --- !u!114 &6251001747115267738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,7 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 30
-  SprintSpeed: 50
+  SprintSpeed: 60
   canMove: 1
   RotationSmoothTime: 0.12
   SpeedChangeRate: 10
