@@ -49,7 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponData: {fileID: 11400000, guid: cc1e5e90b51044da0bb0a05267543a65, type: 2}
   damageCollider: {fileID: 6237773867662248910}
-  targetTag: 
+  targetTag: Enemy
   damage: 0
 --- !u!65 &6237773867662248910
 BoxCollider:

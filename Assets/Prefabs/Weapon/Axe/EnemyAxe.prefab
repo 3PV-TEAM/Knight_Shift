@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyAxe
       objectReference: {fileID: 0}
+    - target: {fileID: 3357189352480335931, guid: cee4823b6b48141bb99e4fd1dae91a59, type: 3}
+      propertyPath: targetTag
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8602027384231842298, guid: cee4823b6b48141bb99e4fd1dae91a59, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
