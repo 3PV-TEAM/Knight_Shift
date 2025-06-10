@@ -340,7 +340,7 @@ ParticleSystem:
     startSizeY:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 8
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -24677,7 +24677,7 @@ ParticleSystem:
     startSizeY:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.2
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -39110,7 +39110,7 @@ ParticleSystem:
     startSizeY:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 4
+      scalar: 0.1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -72959,7 +72959,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2.1
+      scalar: 0
       minScalar: 0.2
       maxCurve:
         serializedVersion: 2
@@ -73012,7 +73012,7 @@ ParticleSystem:
     startSizeY:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.2
+      scalar: 0
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -73065,7 +73065,7 @@ ParticleSystem:
     startSizeZ:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2.1
+      scalar: 0
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -109604,7 +109604,7 @@ ParticleSystem:
     startSizeY:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 3.65
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -116802,7 +116802,7 @@ Transform:
   m_GameObject: {fileID: 7856869801363065462}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 7.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -117115,7 +117115,7 @@ ParticleSystem:
     startSizeY:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 3.65
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -122018,7 +122018,7 @@ ParticleSystem:
     startSizeY:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -141328,6 +141328,7 @@ GameObject:
   - component: {fileID: 4200346361452700694}
   - component: {fileID: 895200541200818354}
   - component: {fileID: 6530459568968338358}
+  - component: {fileID: -5440177293273725685}
   m_Layer: 0
   m_Name: Elementar_Pilar_Crimson (1) Variant 1
   m_TagString: Untagged
@@ -141361,7 +141362,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8958492448356193178}
   serializedVersion: 8
-  lengthInSec: 5
+  lengthInSec: 1
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -141983,8 +141984,8 @@ ParticleSystem:
         m_RotationOrder: 4
   ShapeModule:
     serializedVersion: 6
-    enabled: 0
-    type: 4
+    enabled: 1
+    type: 0
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
@@ -142071,7 +142072,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 1.7
       mode: 0
       spread: 0
       speed:
@@ -144939,9 +144940,9 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 1}
   CollisionModule:
-    enabled: 0
+    enabled: 1
     serializedVersion: 4
-    type: 0
+    type: 1
     collisionMode: 0
     colliderForce: 0
     multiplyColliderForceByParticleSize: 0
@@ -145112,11 +145113,11 @@ ParticleSystem:
     radiusScale: 1
     collidesWith:
       serializedVersion: 2
-      m_Bits: 4294967295
+      m_Bits: 8
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
-    collisionMessages: 0
+    collisionMessages: 1
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
@@ -146153,6 +146154,18 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &-5440177293273725685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8958492448356193178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0e1c3dd83752a4c83487abcd1d6ab9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9209981106116035882
 GameObject:
   m_ObjectHideFlags: 0

@@ -132,6 +132,10 @@ PrefabInstance:
       propertyPath: CollisionModule.collisionMessages
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7754321335381612736, guid: 4fe5d1aee8e20bc4db59b54a0b9f310f, type: 3}
+      propertyPath: CollisionModule.collidesWith.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7754321335381612737, guid: 4fe5d1aee8e20bc4db59b54a0b9f310f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
