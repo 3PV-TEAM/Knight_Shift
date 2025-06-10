@@ -369,9 +369,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lockOnDistance: 10
+  unlockDistance: 15
   enemyLayer:
     serializedVersion: 2
     m_Bits: 64
+  targetGroup: {fileID: 0}
+  vcam_Normal: {fileID: 0}
+  vcam_LockOn: {fileID: 0}
   currentTarget: {fileID: 0}
 --- !u!1 &6210873771741819095
 GameObject:
