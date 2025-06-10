@@ -479,7 +479,7 @@ MonoBehaviour:
   rotationBeforeAttack: 3
   maxRotationTime: 2
   houndShieldPrefab: {fileID: 9014468155198961263, guid: 11f4b684bc7c8ab4987e544370cb0191, type: 3}
-  safeZonePrefab: {fileID: 2086240947698682025, guid: 346b1981935050646abb379351ff9cc0, type: 3}
+  safeZonePrefab: {fileID: 2937805872539066358, guid: 2e3abc80bfc8d444a835a3275b1d42d8, type: 3}
   dangerAreaPrefab: {fileID: 8958492448356193178, guid: d597ffd7b32035746b81828ded6c67b3, type: 3}
   safeZoneRadius: 4.6
   dangerAreaSize: 200

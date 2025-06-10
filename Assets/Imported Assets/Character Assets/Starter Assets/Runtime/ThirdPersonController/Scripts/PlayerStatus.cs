@@ -25,6 +25,7 @@ public class PlayerStatus : MonoBehaviour, IDamageable
     public float lastStaminaUseTime;       // 마지막 스태미너 사용 시간
     
     public bool isDead = false;
+    public GameObject deathPanel;
 
     private PlayerUI playerUI;
     private ThirdPersonController controller;
@@ -88,6 +89,9 @@ public class PlayerStatus : MonoBehaviour, IDamageable
         animator.SetTrigger("Death");
         controller.enabled = false;
         GetComponent<CharacterController>().enabled = false;
+        
+        deathPanel.SetActive(true);
+        Cursor.lockState = CursorLockMode.None; // 마우스 커서 잠금 해제
     }
 
     public void RunStamina()
