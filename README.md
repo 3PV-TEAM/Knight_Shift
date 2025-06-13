@@ -58,7 +58,8 @@
 
 
 ## 📄 발표 자료
-- [Knight Shift 발표자료 (Google Drive에서 보기)](https://docs.google.com/presentation/d/1_1scfc_A026orfoh6rfKEbZTNfrbryuR/edit?usp=sharing&ouid=105161346780980050188&rtpof=true&sd=true)
+- [프로젝트 계획서 ppt](https://docs.google.com/presentation/d/1ptdi_2S-oS0YnX8sOJYa5h880ndGW0KM/edit?usp=share_link&ouid=105161346780980050188&rtpof=true&sd=true)
+- [Knight Shift 발표자료 ppt](https://docs.google.com/presentation/d/1_1scfc_A026orfoh6rfKEbZTNfrbryuR/edit?usp=sharing&ouid=105161346780980050188&rtpof=true&sd=true)
 
 
 
