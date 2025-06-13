@@ -57,12 +57,15 @@
 
 
 
+## 📄 발표 자료
+- [Knight Shift 발표자료 (Google Drive에서 보기)](https://docs.google.com/presentation/d/1_1scfc_A026orfoh6rfKEbZTNfrbryuR/edit?usp=sharing&ouid=105161346780980050188&rtpof=true&sd=true)
+
+
+
 ## 🎬 게임 플레이 영상
 
 [![Knight Shift Gameplay](https://img.youtube.com/vi/xx2BGLpsjh0/0.jpg)](https://youtu.be/xx2BGLpsjh0)
 
 > 클릭하여 재생
-
-
 
 
