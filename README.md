@@ -56,7 +56,8 @@
 
 ## ERD 설계
 
-<img src="/ERD.png" alt="ERD" width="864"/>
+![ERD](https://github.com/user-attachments/assets/98575802-201f-4b73-bdf0-79afb6ff7e9e)
+
 
 
 
