@@ -52,12 +52,26 @@
 
 
 
+## 기능 리스트
+
+![기능리스트](https://github.com/user-attachments/assets/42f3ee70-88c2-4992-afb8-81b29fd52d90)
+
+
+
+##
+
+![아키텍쳐](https://github.com/user-attachments/assets/ec9b5704-1b69-404b-83d9-771420e34f13)
+
+
+
 ## ERD 설계
+
 <img src="/ERD.png" alt="ERD" width="400"/>
 
 
 
 ## 📄 발표 자료
+
 - [프로젝트 계획서 ppt](https://docs.google.com/presentation/d/1ptdi_2S-oS0YnX8sOJYa5h880ndGW0KM/edit?usp=share_link&ouid=105161346780980050188&rtpof=true&sd=true)
 - [Knight Shift 발표자료 ppt](https://docs.google.com/presentation/d/1_1scfc_A026orfoh6rfKEbZTNfrbryuR/edit?usp=sharing&ouid=105161346780980050188&rtpof=true&sd=true)
 
