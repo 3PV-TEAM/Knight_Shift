@@ -50,6 +50,13 @@
 - **Firebase** 기반의 데이터 연동 (예: 골드 저장, 랭킹 시스템)
 - **포탈 이동 및 씬 전환** 시스템으로 각 스테이지 연결성
 
+
+## 기능 리스트
+![기능리스트](https://github.com/user-attachments/assets/4eb19aec-741c-4b3e-a224-d4f0d0c79500)
+
+
+
+## 기능 아키텍쳐
 ![아키텍쳐](https://github.com/user-attachments/assets/ec9b5704-1b69-404b-83d9-771420e34f13)
 
 
