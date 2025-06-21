@@ -48,17 +48,7 @@
 - **Cinemachine**을 활용한 부드러운 카메라 전환 및 락온 시스템
 - **ScriptableObject**를 활용한 능력 카드 및 무기 정보 관리
 - **Firebase** 기반의 데이터 연동 (예: 골드 저장, 랭킹 시스템)
-- **포탈 이동 및 씬 전환** 시스템으로 각 스테이지 연결
-
-
-
-## 기능 리스트
-
-![기능리스트](https://github.com/user-attachments/assets/42f3ee70-88c2-4992-afb8-81b29fd52d90)
-
-
-
-##
+- **포탈 이동 및 씬 전환** 시스템으로 각 스테이지 연결성
 
 ![아키텍쳐](https://github.com/user-attachments/assets/ec9b5704-1b69-404b-83d9-771420e34f13)
 
